@@ -13,7 +13,7 @@
 
 .u-section-1 .u-image-1 {
   min-height: 341px;
-  background-image: url("/images/Yellow.png");
+  background-image: url("../images/Yellow.png");
   background-position: 50% 50%;
 }
 
@@ -128,7 +128,7 @@
 }
 
 .u-section-3 {
-  background-image: url("/images/vietnarm.jpg");
+  background-image: url("../images/vietnarm.jpg");
   min-height: 900px;
   background-size: auto 115%;
 }
@@ -190,7 +190,7 @@
 }
 
 .u-section-5 {
-  background-image: url("/images/turkey.jpg");
+  background-image: url("../images/turkey.jpg");
   min-height: 900px;
   background-size: auto 115%;
 }
@@ -259,7 +259,7 @@
 }
 
 .u-section-7 {
-  background-image: url("/images/ffaa.jpg");
+  background-image: url("../images/ffaa.jpg");
   min-height: 900px;
   background-size: auto 115%;
 }

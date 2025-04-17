@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 .u-section-1 {
-  background-image: url("../images/Arma3_x64_2024-03-27_00-21-42.jpg");
+  background-image: url("../images/StealthNight.webp");
   background-position: 50% 50%;
   min-height: 782px;
 }
@@ -53,7 +68,7 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
+  .u-section-1 {
     min-height: 716px;
   }
 
@@ -75,13 +90,13 @@
 }
 
 @media (max-width: 991px) {
-   .u-section-1 {
+  .u-section-1 {
     min-height: 548px;
   }
 }
 
 @media (max-width: 767px) {
-   .u-section-1 {
+  .u-section-1 {
     min-height: 411px;
   }
 
@@ -91,7 +106,7 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-1 {
+  .u-section-1 {
     min-height: 650px;
   }
 
@@ -120,7 +135,9 @@
   .u-section-1 .u-btn-2 {
     margin-top: 13px;
   }
-}.u-section-2 .u-sheet-1 {
+}
+
+.u-section-2 .u-sheet-1 {
   min-height: 79px;
 }
 
@@ -157,7 +174,9 @@
     margin-left: auto;
     margin-right: auto;
   }
-}.u-block-b308-2 {
+}
+
+.u-block-b308-2 {
   position: absolute;
   bottom: 10px;
 }
@@ -177,8 +196,8 @@
   height: 50px;
 }
 
- .u-section-3-1 {
-  background-image: url("../images/Maps.jpg");
+.u-section-3-1 {
+  background-image: url("../images/Maps.webp");
   background-position: 50% 50%;
 }
 
@@ -188,7 +207,7 @@
 
 .u-section-3-1 .u-text-1 {
   font-size: 3rem;
-  text-shadow: 0px 0px 30px rgba(26,26,26,1);
+  text-shadow: 0px 0px 30px rgba(26, 26, 26, 1);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
@@ -198,7 +217,7 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-3-1 {
+  .u-section-3-1 {
     background-size: auto 110%;
   }
 
@@ -233,8 +252,8 @@
   }
 }
 
- .u-section-3-2 {
-  background-image: url("../images/Modsets.jpg");
+.u-section-3-2 {
+  background-image: url("../images/Modsets.webp");
   background-position: 50% 50%;
 }
 
@@ -244,7 +263,7 @@
 
 .u-section-3-2 .u-text-1 {
   font-size: 3rem;
-  text-shadow: 0px 0px 30px rgba(0,0,0,1);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
@@ -254,7 +273,7 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-3-2 {
+  .u-section-3-2 {
     background-size: auto 110%;
   }
 
@@ -289,8 +308,8 @@
   }
 }
 
- .u-section-3-3 {
-  background-image: url("../images/spearhead_1944.jpg");
+.u-section-3-3 {
+  background-image: url("../images/spearhead_1944.webp");
   background-position: 50% 50%;
 }
 
@@ -300,7 +319,7 @@
 
 .u-section-3-3 .u-text-1 {
   font-size: 3rem;
-  text-shadow: 0px 0px 30px rgba(0,0,0,1);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
@@ -310,7 +329,7 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-3-3 {
+  .u-section-3-3 {
     background-size: auto 110%;
   }
 
@@ -345,8 +364,8 @@
   }
 }
 
- .u-section-3-4 {
-  background-image: url("../images/Arma3_x64_2024-04-04_19-21-49.jpg");
+.u-section-3-4 {
+  background-image: url("../images/StealthNight2.webp");
   background-position: 50% 50%;
 }
 
@@ -356,7 +375,7 @@
 
 .u-section-3-4 .u-text-1 {
   font-size: 3rem;
-  text-shadow: 0px 0px 30px rgba(0,0,0,1);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
@@ -366,7 +385,7 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-3-4 {
+  .u-section-3-4 {
     background-size: auto 110%;
   }
 
@@ -401,8 +420,8 @@
   }
 }
 
- .u-section-3-5 {
-  background-image: url("../images/builder.jpg");
+.u-section-3-5 {
+  background-image: url("../images/builder.webp");
   background-position: 50% 50%;
 }
 
@@ -412,7 +431,7 @@
 
 .u-section-3-5 .u-text-1 {
   font-size: 3rem;
-  text-shadow: 0px 0px 30px rgba(0,0,0,1);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
@@ -422,7 +441,7 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-3-5 {
+  .u-section-3-5 {
     background-size: auto 110%;
   }
 
@@ -457,8 +476,8 @@
   }
 }
 
- .u-section-3-6 {
-  background-image: url("../images/ArmsDealer.jpg");
+.u-section-3-6 {
+  background-image: url("../images/ArmsDealer.webp");
   background-position: 50% 50%;
 }
 
@@ -468,7 +487,7 @@
 
 .u-section-3-6 .u-text-1 {
   font-size: 3rem;
-  text-shadow: 0px 0px 30px rgba(0,0,0,1);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
@@ -483,13 +502,13 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  text-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
   font-size: 1.25rem;
   margin: -11px auto 60px;
 }
 
 @media (max-width: 1199px) {
-   .u-section-3-6 {
+  .u-section-3-6 {
     background-size: auto 110%;
   }
 
@@ -542,8 +561,8 @@
   }
 }
 
- .u-section-3-7 {
-  background-image: url("../images/canada.jpg");
+.u-section-3-7 {
+  background-image: url("../images/canada.webp");
   background-position: 50% 50%;
 }
 
@@ -553,7 +572,7 @@
 
 .u-section-3-7 .u-text-1 {
   font-size: 3rem;
-  text-shadow: 0px 0px 30px rgba(0,0,0,1);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
@@ -568,13 +587,13 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  text-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
   font-size: 1.25rem;
   margin: -11px auto 60px;
 }
 
 @media (max-width: 1199px) {
-   .u-section-3-7 {
+  .u-section-3-7 {
     background-size: auto 110%;
   }
 
@@ -632,8 +651,8 @@
   }
 }
 
- .u-section-3-8 {
-  background-image: url("../images/Garrison.jpg");
+.u-section-3-8 {
+  background-image: url("../images/Garrison.webp");
   background-position: 50% 50%;
 }
 
@@ -643,7 +662,7 @@
 
 .u-section-3-8 .u-text-1 {
   font-size: 3rem;
-  text-shadow: 0px 0px 30px rgba(0,0,0,1);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
@@ -658,13 +677,13 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  text-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
   font-size: 1.25rem;
   margin: -11px auto 60px;
 }
 
 @media (max-width: 1199px) {
-   .u-section-3-8 {
+  .u-section-3-8 {
     background-size: auto 110%;
   }
 
@@ -722,8 +741,8 @@
   }
 }
 
- .u-section-3-9 {
-  background-image: url("../images/Zombies.jpg");
+.u-section-3-9 {
+  background-image: url("../images/Zombies.webp");
   background-position: 50% 50%;
 }
 
@@ -733,7 +752,7 @@
 
 .u-section-3-9 .u-text-1 {
   font-size: 3rem;
-  text-shadow: 0px 0px 30px rgba(0,0,0,1);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
@@ -748,13 +767,13 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  text-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
   font-size: 1.25rem;
   margin: -11px auto 60px;
 }
 
 @media (max-width: 1199px) {
-   .u-section-3-9 {
+  .u-section-3-9 {
     background-size: auto 110%;
   }
 
@@ -812,7 +831,7 @@
   }
 }
 
- .u-section-3-10 {
+.u-section-3-10 {
   background-image: url("../images/Melee.jpg");
   background-position: 50% 50%;
 }
@@ -823,7 +842,7 @@
 
 .u-section-3-10 .u-text-1 {
   font-size: 3rem;
-  text-shadow: 0px 0px 30px rgba(0,0,0,1);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   --animation-custom_in-opacity: 0;
@@ -833,7 +852,7 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-3-10 {
+  .u-section-3-10 {
     background-size: auto 110%;
   }
 
@@ -874,7 +893,9 @@
     margin-right: 0;
     font-size: 1rem;
   }
-}.u-section-4 .u-sheet-1 {
+}
+
+.u-section-4 .u-sheet-1 {
   min-height: 79px;
 }
 
@@ -909,24 +930,272 @@
     font-size: 1.125rem;
     width: auto;
   }
-}.u-block-b545-2 {
-  position: absolute;
-  bottom: 10px;
 }
 
-.u-block-b545-3 {
-  position: absolute;
-  left: 0;
-  padding: 7px;
+/* Keyframe animation for card entry */
+@keyframes slideIn {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
-.u-block-b545-4 {
-  position: absolute;
-  right: 0;
-  padding: 7px;
+/* Initially hide cards */
+.card-container {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
 }
 
- .u-section-5-1 {
+/* Add animation class to card when in view */
+.card-container.animate {
+  opacity: 1;
+  transform: translateY(0);
+  animation: slideIn 1s ease-out forwards;
+}
+
+.card-section {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('https://i.imgur.com/RKZ3nba.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 1%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Wrapper for the card container */
+.card-container {
+  perspective: 1000px; /* Adds perspective for 3D effect */
+}
+
+/* The card itself */
+.card-base {
+  width: 210px;
+  height: 300px;
+  position: relative;
+  transform-style: preserve-3d; /* Required for 3D transformations */
+  transition: transform 0.6s; /* Smooth flip effect */
+  display: flex;
+  flex-direction: column;
+}
+
+.card-base:hover {
+  transform: rotateY(180deg); /* Flip the card on hover */
+}
+
+/* Front side of the card */
+.card-front, .card-back {
+  border-radius: 15px;
+  box-shadow: 0 1px 2px 0 rgba(255, 255, 255, 0.2), 0 3px 20px 0 rgba(255, 255, 255, 0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Hide the back side during the flip */
+}
+
+.card-front {
+  background-image: url('https://i.imgur.com/ja1q8a4.jpeg'); /* Front image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-back {
+  background-image: url('https://i.imgur.com/rJ9KkzJ.jpeg'); /* Back image */
+  background-size: cover;
+  background-position: center;
+  transform: rotateY(180deg); /* Initially hidden by 180 degrees */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card sections */
+.card-top {
+  height: 8%;
+  font-family: 'Black Ops One'; /* Apply the Black Ops One font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: visible; /* Ensure no overflow is hidden */
+}
+
+.card-top h1 {
+  color: white;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap; /* Prevent text from wrapping */
+  width: 100%;
+  font-size: 20px; /* Default size */
+  flex-shrink: 0; /* Prevent shrinking */
+  box-sizing: border-box;
+  text-overflow: clip; /* Ensure no ellipsis */
+  display: inline-block;
+  max-width: 100%;
+}
+
+.card-middle {
+  height: 83%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align the image at the top */
+  align-items: center;
+  padding: 0 5px; /* Left and right padding of 5px */
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Maintain a 1x1 aspect ratio */
+  object-fit: cover; /* Ensure image covers the area without stretching */
+  margin-bottom: 10px; /* Space between the image and the text */
+}
+
+.card-middle-text {
+  text-align: center;
+  font-size: 14px; /* Fixed font size for text */
+  color: white; /* Ensure text is visible */
+  padding: 0 5px; /* Padding to ensure the text doesn't touch the edges */
+  font-family: 'Black Ops One'; /* Use the same font as h1 */
+  margin-top: 0; /* Make sure there's no additional space above the text */
+}
+
+.card-bottom {
+  height: 9%;
+  text-align: center;
+}
+
+/* Styles for the back side content *//* Card sections */
+.card-top-back {
+  height: 19%;
+  font-family: 'Black Ops One'; /* Apply the Black Ops One font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: visible; /* Ensure no overflow is hidden */
+}
+
+.card-top-back h1 {
+  color: white;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap; /* Prevent text from wrapping */
+  width: 100%;
+  font-size: 20px; /* Default size */
+  flex-shrink: 0; /* Prevent shrinking */
+  box-sizing: border-box;
+  text-overflow: clip; /* Ensure no ellipsis */
+  display: inline-block;
+  max-width: 100%;
+}
+
+.card-middle-back {
+  height: 64%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align the image at the top */
+  align-items: center;
+  padding: 0 5px; /* Left and right padding of 5px */
+}
+
+.card-middle-text-back {
+  text-align: center;
+  font-size: 14px; /* Fixed font size for text */
+  color: white; /* Ensure text is visible */
+  padding: 0 5px; /* Padding to ensure the text doesn't touch the edges */
+  font-family: 'Black Ops One'; /* Use the same font as h1 */
+  margin-top: 0; /* Make sure there's no additional space above the text */
+}
+
+.card-bottom-back {
+  height: 17%;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  position: relative;
+  text-align: center;
+}
+
+.card-button {
+  font-family: 'Black Ops One';
+  /* Remove positioning so flexbox handles it */
+  white-space: nowrap;
+  border-radius: 25px;
+  padding: 6px 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Style variant with white border */
+.card-button1 {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+/* Hover effect */
+.card-button1:hover {
+  background-color: #868787;
+  color: white;
+}
+
+.card-button1:active {
+  background-color: #868787;
+  color: white;
+}
+
+/* Back side button positioning */
+.card-back .card-bottom {
+  height: 9%;
+  position: relative; /* Ensure button is positioned correctly */
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .card-button {
+    font-size: 0.85em;
+    padding: 5px 20px;
+  }
+}
+
+.card-base:hover,
+.card-base.flipped {
+  transform: rotateY(180deg);
+}
+
+.u-section-5-1 {
   background-image: url("../images/1iF1N7x.jpg");
   background-position: 50% 50%;
 }
@@ -1007,7 +1276,7 @@
   }
 }
 
- .u-section-5-2 {
+.u-section-5-2 {
   background-image: url("../images/l1J86Cy.jpg");
   background-position: 50% 50%;
 }
@@ -1089,7 +1358,7 @@
   }
 }
 
- .u-section-5-3 {
+.u-section-5-3 {
   background-image: url("../images/spXolCz.jpg");
   background-position: 50% 50%;
 }
@@ -1175,7 +1444,7 @@
   }
 }
 
- .u-section-5-4 {
+.u-section-5-4 {
   background-image: url("../images/BC9Eudu.jpg");
   background-position: 50% 50%;
 }
@@ -1261,7 +1530,7 @@
   }
 }
 
- .u-section-5-5 {
+.u-section-5-5 {
   background-image: url("../images/1sUo49w.jpg");
   background-position: 50% 50%;
 }
@@ -1347,7 +1616,7 @@
   }
 }
 
- .u-section-5-6 {
+.u-section-5-6 {
   background-image: url("../images/gtYZ1AM.jpg");
   background-position: 50% 50%;
 }
@@ -1433,7 +1702,7 @@
   }
 }
 
- .u-section-5-7 {
+.u-section-5-7 {
   background-image: url("../images/azknLRp.jpg");
   background-position: 50% 50%;
 }
@@ -1519,7 +1788,7 @@
   }
 }
 
- .u-section-5-8 {
+.u-section-5-8 {
   background-image: url("../images/ZemrwNb.jpg");
   background-position: 50% 50%;
 }
@@ -1605,7 +1874,7 @@
   }
 }
 
- .u-section-5-9 {
+.u-section-5-9 {
   background-image: url("../images/Untitled-4.jpg");
   background-position: 50% 50%;
 }
@@ -1689,7 +1958,9 @@
   .u-section-5-9 .u-sheet-1 {
     min-height: 378px;
   }
-}.u-section-6 .u-sheet-1 {
+}
+
+.u-section-6 .u-sheet-1 {
   min-height: 79px;
 }
 
@@ -1724,7 +1995,9 @@
     font-size: 1.125rem;
     width: auto;
   }
-} .u-section-7 {
+}
+
+.u-section-7 {
   background-image: none;
   min-height: 754px;
 }
@@ -2311,7 +2584,7 @@
 .u-section-7 .u-btn-14 {
   font-size: 1.125rem;
   text-align: left;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-image: none;
   padding: 0;
 }
@@ -2349,7 +2622,7 @@
 .u-section-7 .u-btn-15 {
   font-size: 1rem;
   text-align: left;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-image: none;
   padding: 0;
 }
@@ -4121,15 +4394,17 @@
   .u-section-7 .u-shape-5 {
     width: 250px;
   }
-} .u-section-8 {
-  background-image: url("../images/Cars.jpg");
+}
+
+.u-section-8 {
+  background-image: url("../images/Cars.webp");
   background-position: 50% 50%;
   min-height: 490px;
 }
 
 .u-section-8 .u-text-1 {
   font-size: 1.875rem;
-  text-shadow: 0px 0px 40px rgba(0,0,0,0.4);
+  text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
   margin: 10px auto 0;
 }
 
@@ -4576,7 +4851,7 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-8 {
+  .u-section-8 {
     min-height: 404px;
   }
 
@@ -4741,7 +5016,7 @@
 }
 
 @media (max-width: 991px) {
-   .u-section-8 {
+  .u-section-8 {
     min-height: 309px;
   }
 
@@ -4832,7 +5107,7 @@
 }
 
 @media (max-width: 767px) {
-   .u-section-8 {
+  .u-section-8 {
     min-height: 232px;
   }
 
@@ -4977,7 +5252,7 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-8 {
+  .u-section-8 {
     min-height: 146px;
   }
 
@@ -4988,22 +5263,24 @@
   .u-section-8 .u-repeater-1 {
     grid-auto-columns: 100%;
   }
-} .u-section-9 {
+}
+
+.u-section-9 {
   min-height: 435px;
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/Arma3_x64_2023-08-23_06-56-09.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/MiddleEast.webp");
   background-position: 50% 50%;
 }
 
 .u-section-9 .u-text-1 {
   font-weight: 700;
   font-size: 4.5rem;
-  text-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
   margin: 108px 115px 0;
 }
 
 .u-section-9 .u-text-2 {
   font-weight: normal;
-  text-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+  text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
   margin: 14px 115px 0;
 }
 
@@ -5018,7 +5295,7 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-9 {
+  .u-section-9 {
     min-height: 462px;
   }
 
@@ -5042,7 +5319,7 @@
 }
 
 @media (max-width: 991px) {
-   .u-section-9 {
+  .u-section-9 {
     min-height: 371px;
   }
 
@@ -5060,7 +5337,7 @@
 }
 
 @media (max-width: 767px) {
-   .u-section-9 {
+  .u-section-9 {
     min-height: 500px;
     background-size: auto 120%;
   }
@@ -5072,7 +5349,7 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-9 {
+  .u-section-9 {
     min-height: 459px;
   }
 
