@@ -1,521 +1,370 @@
 <!DOCTYPE html>
 <html lang="en-GB" style="font-size: 16px;">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-	<style type="text/css">/* width */
-    ::-webkit-scrollbar {
-      width: 5px;
-    }
 
-    /* Track */
-    ::-webkit-scrollbar-track {
-      box-shadow: inset 0 0 5px rgb(41, 41, 41);
-      border-radius: 5px;
-    }
+<head>
+    <script type="text/javascript" src="../Site.js" defer=""></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
 
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-      background: #d1b902;
-      border-radius: 10px;
-    }
+        /* Track */
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px rgb(41, 41, 41);
+            border-radius: 5px;
+        }
 
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-      background: #9e8c00;
-    }
-	</style>
-	<title>Useful Information - Antistasi Ultimate</title>
-	<link href="../Site/nicepage.css" rel="stylesheet" />
-	<link href="Useful-Information.css" rel="stylesheet" />
-	<link href="../images/Yellow.png" rel="icon" />
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" id="u-theme-google-font" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Black+Ops+One:400" id="u-page-google-font" rel="stylesheet" />
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #d1b902;
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #9e8c00;
+        }
+    </style>
+    <title>Information - Antistasi Ultimate</title>
+    <meta name="keywords"
+        content="AntistasiUltimate, Info, Arma3, Mod, Help, Support, Answers, Arma 3 Antistasi Ultimate">
+    <meta name="description" content="Get useful information and resources related to Antistasi Ultimate.">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="2 days">
+    <meta name="author" content="Maxx">
+    <meta name="theme-color" content="#e8ba00">
+    <meta property="og:title" content="Antistasi Ultimate - Information">
+    <meta property="og:description"
+        content="Access helpful information and technical details about Antistasi Ultimate.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="../images/Yellow.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+
+    <link href="Info.css" rel="stylesheet" />
+    <link href="../Site.css" rel="stylesheet" />
+    <link href="../images/Yellow.png" rel="icon" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Open+Sans:300,400,600,700,800|Black+Ops+One:400"
+        rel="stylesheet" />
+    <script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "Organization",
+			"name": "Antistasi Ultimate",
+			"logo": "../images/UACLogoSmall.png",
+			"sameAs": [
+				"https://www.youtube.com/@AntistasiUltimateCommunity",
+				"https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate",
+				"https://discord.gg/antistasiultimate",
+				"https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032"
+			]
+		}
+	</script>
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-sqf.min.js"></script>
 </head>
-<meta name="keywords"
-      content="AntistasiUltimate, Antistasi, Arma3, Mod, Steam, arma 3 antistasi ultimate, antistasi ultimate, Ultimate, Arma 3"><meta name="description"
-      content="Here you will find some useful information! Developer Documentation, Utility Functions, Python Stuff, VSCode Stuff, Extender Documentation"><meta name="robots" content="index, follow"><meta name="language" content="English"><meta name="revisit-after" content="2 days"><meta name="author" content="Maxx"><script class="u-script" type="text/javascript" src="/Site/jquery.js" defer></script><script class="u-script" type="text/javascript" src="/Site/nicepage.js" defer></script><script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "name": "Antistasi Ultimate",
-      "logo": "../images/UACLogoSmall.png",
-      "sameAs": [
-        "https://www.youtube.com/@AntistasiUltimateCommunity",
-        "https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate",
-        "https://discord.gg/antistasiultimate",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032"
-      ]
-    }
-  </script><meta name="theme-color" content="#e8ba00"><meta property="og:title" content="Antistasi Ultimate"><meta property="og:description"
-      content="The official site for the Antistasi Ultimate Mod for Arma3. All the information you need in one place!"><meta property="og:type" content="website"><meta property="og:image" content="../images/UACLogoSmall.png"><meta data-intl-tel-input-cdn-path="intlTelInput/">
-<body class="u-body u-xl-mode" data-include-products="false" data-lang="en" data-path-to-root="./">
-<header class="u-border-1 u-border-black u-border-no-left u-border-no-right u-border-no-top u-clearfix u-custom-color-2 u-header u-sticky u-sticky-aec2 u-valign-middle u-header" id="sec-4a1e">
-<nav class="u-align-right u-dropdown-icon u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="MD">
-<div class="menu-collapse u-custom-font" style="font-family: &quot;Black Ops One&quot;; font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;"><a class="u-button-style u-custom-active-border-color u-custom-border u-custom-border-color u-custom-border-radius u-custom-borders u-custom-color u-custom-hover-border-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-text-shadow u-custom-top-bottom-menu-spacing u-nav-link u-text-grey-10" href="#" style="padding: 5px 6px; font-size: calc(1em + 10px);"><svg class="u-svg-link" viewbox="0 0 24 24"> <use xlink:href="#svg-c534" xmlns:xlink="http://www.w3.org/1999/xlink"></use> </svg> <svg class="u-svg-content" id="svg-c534" version="1.1" viewbox="0 0 16 16" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px"> <g> <rect height="2" width="16" y="1"></rect> <rect height="2" width="16" y="7"></rect> <rect height="2" width="16" y="13"></rect> </g> </svg> </a></div>
 
-<div class="u-custom-menu u-nav-container">
-<ul class="u-custom-font u-nav u-spacing-100 u-unstyled u-nav-1">
-	<li class="u-nav-item"><a class="u-border-2 u-border-active-custom-color-4 u-border-hover-custom-color-4 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-custom-color-4 u-text-grey-10 u-text-hover-custom-color-4" href="/Home" style="padding: 10px 0px;">Home</a></li>
-	<li class="u-nav-item"><a class="u-border-2 u-border-active-custom-color-4 u-border-hover-custom-color-4 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-custom-color-4 u-text-grey-10 u-text-hover-custom-color-4" href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" rel="nofollow" style="padding: 10px 0px;" target="_blank">Documentation</a>
-	<div class="u-nav-popup">
-	<ul class="u-border-2 u-border-grey-75 u-custom-font u-h-spacing-37 u-nav u-unstyled u-v-spacing-15 u-nav-2">
-		<li class="u-nav-item"><a class="u-button-style u-grey-80 u-hover-grey-75 u-nav-link u-text-active-palette-3-base u-text-hover-custom-color-4" href="/Useful-Information">More Info</a></li>
-		<li class="u-nav-item"><a class="u-button-style u-grey-80 u-hover-grey-75 u-nav-link u-text-active-palette-3-base u-text-hover-custom-color-4" href="/FAQ">FAQ</a></li>
-		<li class="u-nav-item"><a class="u-button-style u-grey-80 u-hover-grey-75 u-nav-link u-text-active-palette-3-base u-text-hover-custom-color-4" href="/About-Page">About</a></li>
-	</ul>
-	</div>
-	</li>
-	<li class="u-nav-item"><a class="u-border-2 u-border-active-custom-color-4 u-border-hover-custom-color-4 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-custom-color-4 u-text-grey-10 u-text-hover-custom-color-4" href="/Community" style="padding: 10px 0px;">Community</a>
-	<div class="u-nav-popup">
-	<ul class="u-border-2 u-border-grey-75 u-custom-font u-h-spacing-37 u-nav u-unstyled u-v-spacing-15 u-nav-3">
-		<li class="u-nav-item"><a class="u-button-style u-grey-80 u-hover-grey-75 u-nav-link u-text-active-palette-3-base u-text-hover-custom-color-4" href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank">Github</a></li>
-		<li class="u-nav-item"><a class="u-button-style u-grey-80 u-hover-grey-75 u-nav-link u-text-active-palette-3-base u-text-hover-custom-color-4" href="https://discord.gg/antistasiultimate" target="_blank">Discord</a></li>
-		<li class="u-nav-item"><a class="u-button-style u-grey-80 u-hover-grey-75 u-nav-link u-text-active-palette-3-base u-text-hover-custom-color-4" href="ts3server://stutpip123.ddns.net" target="_blank">TeamSpeak 3 Server</a></li>
-	</ul>
-	</div>
-	</li>
-</ul>
-</div>
-
-<div class="u-custom-menu u-nav-container-collapse">
-<div class="u-black u-border-2 u-border-grey-75 u-container-style u-inner-container-layout u-opacity u-opacity-50 u-sidenav">
-<div class="u-inner-container-layout u-sidenav-overflow">
-<div class="u-menu-close"></div>
-
-<ul class="u-align-center u-custom-font u-nav u-popupmenu-items u-spacing-24 u-unstyled u-nav-4">
-	<li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Home">Home</a></li>
-	<li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" rel="nofollow" target="_blank">Documentation</a>
-	<div class="u-nav-popup">
-	<ul class="u-border-2 u-border-grey-75 u-custom-font u-h-spacing-37 u-nav u-unstyled u-v-spacing-15 u-nav-5">
-		<li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Useful-Information">More Info</a></li>
-		<li class="u-nav-item"><a class="u-button-style u-nav-link" href="/FAQ">FAQ</a></li>
-		<li class="u-nav-item"><a class="u-button-style u-nav-link" href="/About-Page">About</a></li>
-	</ul>
-	</div>
-	</li>
-	<li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Community">Community</a>
-	<div class="u-nav-popup">
-	<ul class="u-border-2 u-border-grey-75 u-custom-font u-h-spacing-37 u-nav u-unstyled u-v-spacing-15 u-nav-6">
-		<li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank">Github</a></li>
-		<li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://discord.gg/antistasiultimate" target="_blank">Discord</a></li>
-		<li class="u-nav-item"><a class="u-button-style u-nav-link" href="ts3server://stutpip123.ddns.net" target="_blank">TeamSpeak 3 Server</a></li>
-	</ul>
-	</div>
-	</li>
-</ul>
-</div>
-</div>
-
-<div class="u-menu-overlay"></div>
-</div>
-</nav>
-<a class="u-align-left u-hover-feature u-image u-logo u-image-1" data-image-height="880" data-image-width="4534" href="/Home" title="Home"><img class="u-logo-image u-logo-image-1" src="../images/SiteLogo1.png" /> </a></header>
-
-<section class="u-clearfix u-section-1" id="sec-97fb">
-<div class="u-clearfix u-sheet u-sheet-1">
-<div class="u-border-3 u-border-grey-40 u-container-align-center u-container-style u-expanded-width u-group u-group-1">
-<div class="u-container-layout u-container-layout-1">
-<h1 class="u-align-center u-custom-font u-font-open-sans u-text u-text-1">Here you will find some useful information!</h1>
-</div>
-</div>
-</div>
-</section>
-
-<section class="u-clearfix u-section-2" id="carousel_da61">
-<div class="u-clearfix u-sheet u-sheet-1">
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-50 u-shape-rectangle u-group-1">
-<div class="u-container-layout u-container-layout-1">
-<h2 class="u-align-center u-text u-text-default u-text-1">Developer Documentation</h2>
-</div>
-</div>
-
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-50 u-shape-rectangle u-group-2">
-<div class="u-container-layout u-container-layout-2">
-<h2 class="u-align-center u-text u-text-default u-text-2">Utility Functions</h2>
-</div>
-</div>
-
-<div class="u-black u-container-style u-expanded-width u-group u-opacity u-opacity-15 u-shape-rectangle u-group-3">
-<div class="u-container-layout u-valign-top u-container-layout-3">
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-10 u-shape-rectangle u-group-4">
-<div class="u-container-layout u-container-layout-4">
-<h4 class="u-text u-text-default u-text-3">Spawn Trader Mission</h4>
-</div>
-</div>
-
-<h6 class="u-text u-text-default u-text-4">Spawns a trader mission on a new save</h6>
-
-<blockquote class="u-border-white u-text u-text-default u-text-5">[] remoteExec [&quot;SCRT_fnc_trader_prepareTraderQuest&quot;, 2];</blockquote>
-</div>
-</div>
-
-<div class="u-black u-container-style u-expanded-width u-group u-opacity u-opacity-15 u-shape-rectangle u-group-5">
-<div class="u-container-layout u-valign-top u-container-layout-5">
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-10 u-shape-rectangle u-group-6">
-<div class="u-container-layout u-container-layout-6">
-<h4 class="u-text u-text-default u-text-6">Export Crate To Arms Dealer</h4>
-</div>
-</div>
-
-<h6 class="u-text u-text-default u-text-7">Grabs all the weapons out of a crate, grabs mags for them, then puts it into a formatted config array for the arms dealer&nbsp;<br />
-(returns into your clipboard)</h6>
-
-<blockquote class="u-border-white u-text u-text-default u-text-8">[_target, &quot;modPrefix&quot;, &quot;categoryPrefix&quot;] call A3U_fnc_exportCrate;</blockquote>
-
-<h6 class="u-text u-text-default u-text-9">You can also have multiple crates and do this to export them one at a time</h6>
-
-<blockquote class="u-border-white u-text u-text-default u-text-10">//crate 1&nbsp;<br />
-this addAction [&quot;copy&quot;, {[(_this select 0), &quot;RHS&quot;, &quot;Rifles&quot;] call A3U_fnc_exportCrate}];&nbsp;<br />
-//crate 2&nbsp;<br />
-this addAction [&quot;copy&quot;, {[(_this select 0), &quot;RHS&quot;, &quot;Sniper Rifles&quot;] call A3U_fnc_exportCrate}];</blockquote>
-</div>
-</div>
-
-<div class="u-black u-container-style u-expanded-width u-group u-opacity u-opacity-15 u-shape-rectangle u-group-7">
-<div class="u-container-layout u-container-layout-7">
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-10 u-shape-rectangle u-group-8">
-<div class="u-container-layout u-container-layout-8">
-<h4 class="u-text u-text-default u-text-11">Export Pylon Loadout For Config</h4>
-</div>
-</div>
-
-<h6 class="u-text u-text-default u-text-12">(<span style="font-size: 1rem;">As of 10.2.2)<br />
-Grabs the current pylon loadout of an air vehicle and exports it for config (returns into your clipboard) </span></h6>
-
-<blockquote class="u-border-white u-text u-text-default u-text-13">[_target] call A3U_fnc_exportPylons;</blockquote>
-</div>
-</div>
-
-<div class="u-black u-container-style u-expanded-width u-group u-opacity u-opacity-15 u-shape-rectangle u-group-9">
-<div class="u-container-layout u-container-layout-9">
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-10 u-shape-rectangle u-group-10">
-<div class="u-container-layout u-container-layout-10">
-<h4 class="u-text u-text-default u-text-14">Draw cargo seats of vehicles, with index</h4>
-</div>
-</div>
-
-<h6 class="u-text u-text-default u-text-15">(doesn&#39;t always work with modded vehicles, due to weird setups)</h6>
-
-<blockquote class="u-border-white u-text u-text-default u-text-16">[cursorObject] call A3U_fnc_logisticsGrabSeats;</blockquote>
-</div>
-</div>
-
-<div class="u-black u-container-style u-expanded-width u-group u-opacity u-opacity-15 u-shape-rectangle u-group-11">
-<div class="u-container-layout u-container-layout-11">
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-10 u-shape-rectangle u-group-12">
-<div class="u-container-layout u-container-layout-12">
-<h4 class="u-text u-text-default u-text-17">Logging</h4>
-</div>
-</div>
-
-<blockquote class="u-border-white u-text u-text-default u-text-18">[&quot;Message&quot;, _fncPath] call A3U_fnc_log;</blockquote>
-</div>
-</div>
-
-<div class="u-black u-container-style u-expanded-width u-group u-opacity u-opacity-15 u-shape-rectangle u-group-13">
-<div class="u-container-layout u-valign-top u-container-layout-13">
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-10 u-shape-rectangle u-group-14">
-<div class="u-container-layout u-container-layout-14">
-<h4 class="u-text u-text-default u-text-19">cfgPatches check</h4>
-</div>
-</div>
-
-<blockquote class="u-border-white u-text u-text-default u-text-20">[&quot;cfgPatchesClass&quot;] call A3U_fnc_hasAddon;</blockquote>
-
-<h6 class="u-text u-text-default u-text-21">Alternate Syntax</h6>
-
-<blockquote class="u-border-white u-text u-text-default u-text-22">[[&quot;cfgPatchesClass1&quot;, &quot;cfgPatchesClass2&quot;]] call A3U_fnc_hasAddon;</blockquote>
-</div>
-</div>
-
-<div class="u-black u-container-style u-expanded-width u-group u-opacity u-opacity-15 u-shape-rectangle u-group-15">
-<div class="u-container-layout u-container-layout-15">
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-10 u-shape-rectangle u-group-16">
-<div class="u-container-layout u-container-layout-16">
-<h4 class="u-text u-text-default u-text-23">Weight Test</h4>
-</div>
-</div>
-
-<h6 class="u-text u-text-default u-text-24">Logs occurence of each value over 10000 iterations</h6>
-
-<blockquote class="u-border-white u-text u-text-default u-text-25">[_values, _weights] call A3U_fnc_weightTest;</blockquote>
-</div>
-</div>
-
-<div class="u-black u-container-style u-expanded-width u-group u-opacity u-opacity-15 u-shape-rectangle u-group-17">
-<div class="u-container-layout u-container-layout-17">
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-10 u-shape-rectangle u-group-18">
-<div class="u-container-layout u-container-layout-18">
-<h4 class="u-text u-text-default u-text-26">Change player faction money/hr</h4>
-</div>
-</div>
-
-<h6 class="u-text u-text-default u-text-27">Changes player&#39;s faction Money and HR (takes effect immediately but ui won&#39;t update untill next tick)</h6>
-
-<blockquote class="u-border-white u-text u-text-default u-text-28">[0,0] remoteExec [&quot;A3A_fnc_resourcesFIA&quot;,2]; //1 param - hq, 2 param - money</blockquote>
-</div>
-</div>
-
-<div class="u-black u-container-style u-expanded-width u-group u-opacity u-opacity-15 u-shape-rectangle u-group-19">
-<div class="u-container-layout u-container-layout-19">
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-10 u-shape-rectangle u-group-20">
-<div class="u-container-layout u-container-layout-20">
-<h4 class="u-text u-text-default u-text-29">Debug Rivals</h4>
-</div>
-</div>
-
-<h6 class="u-text u-text-default u-text-30">Sets up the rivals, and reveals their location on the commander menu</h6>
-
-<blockquote class="u-border-white u-text u-text-default u-text-31">[] spawn {&nbsp;<br />
-[] remoteExecCall [&quot;SCRT_fnc_rivals_activate&quot;, 2];&nbsp;<br />
-uiSleep 2;&nbsp;<br />
-[10000] call SCRT_fnc_rivals_addProgressToRivalsLocationReveal;<br />
-&nbsp;};</blockquote>
-</div>
-</div>
-
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-50 u-shape-rectangle u-group-21">
-<div class="u-container-layout u-container-layout-21">
-<h2 class="u-align-center u-text u-text-default u-text-32">Python Stuff</h2>
-</div>
-</div>
-
-<div class="u-black u-container-style u-expanded-width u-group u-opacity u-opacity-15 u-shape-rectangle u-group-22">
-<div class="u-container-layout u-container-layout-22">
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-10 u-shape-rectangle u-group-23">
-<div class="u-container-layout u-container-layout-23">
-<h4 class="u-text u-text-default u-text-33">Town Generator</h4>
-</div>
-</div>
-
-<h6 class="u-text u-text-default u-text-34"><a class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate/tree/unstable/Tools/TownGenerator">Town Generator</a>&nbsp;is a bundle of 2 python scripts, input.py and sort.py<br />
-<br />
-sort.py does the heavy lifting and doesn&#39;t necessarily need to be used directly (input.py imports the sort.py function). input.py can be ran and will prompt you to put in an array provided by&nbsp;<a class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2" href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate/blob/unstable/A3A/addons/ultimate/functions/Utility/fn_exportTowns.sqf">A3U_fnc_exportTowns</a>.<br />
-<br />
-After selecting an export type, it will then provide you with a list of towns/population that you can paste into a mapInfo.hpp file.</h6>
-</div>
-</div>
-
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-50 u-shape-rectangle u-group-24">
-<div class="u-container-layout u-container-layout-24">
-<h2 class="u-align-center u-text u-text-default u-text-35">VSCode Stuff</h2>
-</div>
-</div>
-
-<div class="u-black u-container-style u-expanded-width u-group u-opacity u-opacity-15 u-shape-rectangle u-group-25">
-<div class="u-container-layout u-container-layout-25">
-<div class="u-container-style u-expanded-width u-grey-90 u-group u-opacity u-opacity-10 u-shape-rectangle u-group-26">
-<div class="u-container-layout u-container-layout-26">
-<h4 class="u-text u-text-default u-text-36">VSCode arma-dev.json</h4>
-</div>
-</div>
-
-<blockquote class="u-border-white u-text u-text-default u-text-37">{&nbsp;<br />
-&nbsp; &nbsp; &quot;title&quot;: &quot;Antistasi Ultimate&quot;,<br />
-&nbsp; &nbsp; &quot;name&quot;: &quot;A3U&quot;,<br />
-&nbsp; &nbsp; &quot;author&quot;: &quot;Antistasi Ultimate Dev Team&quot;,<br />
-&nbsp; &nbsp; &quot;website&quot;: &quot;&quot;,<br />
-&nbsp; &nbsp; &quot;version&quot;: &quot;0.0.1&quot;,<br />
-&nbsp; &nbsp; &quot;buildPath&quot;: &quot;build&quot;,<br />
-&nbsp; &nbsp; &quot;privateKey&quot;: &quot;&quot;,<br />
-&nbsp; &nbsp; &quot;serverDirs&quot;: [],<br />
-&nbsp; &nbsp; &quot;serverUse32bit&quot;: false,<br />
-&nbsp; &nbsp; &quot;clientDirs&quot;: [&nbsp;<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &quot;A3A/addons/config_fixes&quot;,&nbsp;<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &quot;A3A/addons/core&quot;,<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &quot;A3A/addons/events&quot;,<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &quot;A3A/addons/garage&quot;,<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &quot;A3A/addons/gui&quot;,<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &quot;A3A/addons/hals&quot;,<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &quot;A3A/addons/jeroen_arsenal&quot;,<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &quot;A3A/addons/logistics&quot;,<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &quot;A3A/addons/main_menu&quot;,<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &quot;A3A/addons/maps&quot;,<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &quot;A3A/addons/patcom&quot;,<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &quot;A3A/addons/scrt&quot;,<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &quot;A3A/addons/ultimate&quot;<br />
-&nbsp; &nbsp; ],<br />
-&nbsp; &nbsp; &quot;clientMods&quot;: [],<br />
-&nbsp; &nbsp; &quot;ftpConnection&quot;: {},<br />
-&nbsp; &nbsp; &quot;steamPath&quot;: &quot;pathToSteamLibrary&quot;<br />
-}</blockquote>
-</div>
-</div>
-</div>
-</section>
-
-<section class="u-align-center u-clearfix u-section-3" id="carousel_f6e2">
-<div class="u-clearfix u-sheet u-sheet-1">
-<div class="custom-expanded u-black u-container-style u-group u-opacity u-opacity-50 u-shape-rectangle u-group-1">
-<div class="u-container-layout u-container-layout-1">
-<h2 class="u-align-center u-custom-font u-font-montserrat u-text u-text-1">Extender Documentation</h2>
-</div>
-</div>
-
-<div class="u-accordion u-collapsed-by-default u-expanded-width u-spacing-2 u-accordion-1">
-<div class="u-accordion-item u-accordion-item-1"><a aria-controls="accordion-7c0e" aria-selected="false" class="u-accordion-link u-active-grey-70 u-button-style u-grey-80 u-text-white u-accordion-link-1" id="link-accordion-7c0e"> <span class="u-accordion-link-text"> Antistasi Ultimate Extender Example</span><span class="u-accordion-link-icon u-active-grey-80 u-border-2 u-border-custom-color-4 u-icon u-icon-circle u-text-active-white u-text-white u-icon-1"><svg class="u-svg-link" preserveaspectratio="xMidYMin slice" style="" viewbox="0 0 426.66667 426.66667"> <use xlink:href="#svg-347e" xmlns:xlink="http://www.w3.org/1999/xlink"></use> </svg><svg class="u-svg-content" id="svg-347e" viewbox="0 0 426.66667 426.66667"> <path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"> </path> </svg></span> </a>
-
-<div aria-labelledby="link-accordion-7c0e" class="u-accordion-pane u-align-left u-container-style u-grey-60 u-accordion-pane-1" id="accordion-7c0e">
-<div class="u-container-layout u-container-layout-2">
-<h6 class="u-text u-text-2">This is an example of how you could extend Antistasi Ultimate with new maps and templates or overwrite existing ones. This is a fork of&nbsp;<span style="font-weight: 700;">A3AExtender</span>&nbsp;made by&nbsp;<span style="font-weight: 700;">Antistsi Official Community Arma 3</span></h6>
-</div>
-</div>
-</div>
-
-<div class="u-accordion-item u-accordion-item-2"><a aria-controls="accordion-05cb" aria-selected="false" class="u-accordion-link u-active-grey-70 u-button-style u-grey-80 u-text-white u-accordion-link-2" id="link-accordion-05cb"> <span class="u-accordion-link-text"> Requirements</span><span class="u-accordion-link-icon u-active-grey-80 u-border-2 u-border-custom-color-4 u-icon u-icon-circle u-text-active-white u-text-white u-icon-2"><svg class="u-svg-link" preserveaspectratio="xMidYMin slice" style="" viewbox="0 0 426.66667 426.66667"> <use xlink:href="#svg-ae03" xmlns:xlink="http://www.w3.org/1999/xlink"></use> </svg><svg class="u-svg-content" id="svg-ae03" viewbox="0 0 426.66667 426.66667"> <path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"> </path> </svg></span> </a>
-
-<div aria-labelledby="link-accordion-05cb" class="u-accordion-pane u-align-left u-container-style u-grey-60 u-accordion-pane-2" id="accordion-05cb">
-<div class="u-container-layout u-valign-top u-container-layout-3">
-<ul class="u-text u-text-default u-text-3">
-	<li>Arma 3</li>
-	<li>Arma 3 Tools</li>
-</ul>
-
-<p class="u-custom-font u-font-open-sans u-text u-text-default u-text-4">Both need to be run once from steam.</p>
-</div>
-</div>
-</div>
-
-<div class="u-accordion-item u-accordion-item-3"><a aria-controls="accordion-a6bb" aria-selected="false" class="u-accordion-link u-active-grey-70 u-button-style u-grey-80 u-text-white u-accordion-link-3" id="link-accordion-a6bb"> <span class="u-accordion-link-text"> How to get started:</span><span class="u-accordion-link-icon u-active-grey-80 u-border-2 u-border-custom-color-4 u-icon u-icon-circle u-text-active-white u-text-white u-icon-3"><svg class="u-svg-link" preserveaspectratio="xMidYMin slice" style="" viewbox="0 0 426.66667 426.66667"> <use xlink:href="#svg-a4a8" xmlns:xlink="http://www.w3.org/1999/xlink"></use> </svg><svg class="u-svg-content" id="svg-a4a8" viewbox="0 0 426.66667 426.66667"> <path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"> </path> </svg></span> </a>
-
-<div aria-labelledby="link-accordion-a6bb" class="u-accordion-pane u-align-left u-container-style u-grey-60 u-accordion-pane-3" id="accordion-a6bb">
-<div class="u-container-layout u-valign-top u-container-layout-4">
-<ul class="u-text u-text-5">
-	<li>Run the <span style="text-decoration: underline !important; font-style: italic;">Install.ps1</span> script and follow the instructions on screen.</li>
-	<li>Run the <span style="font-style: italic; text-decoration: underline !important;">Build.ps1</span> script. This will create a folder in the root folder called build and compile your extension into it.</li>
-	<li>Start the ArmA 3 launcher and in the launcher do the following:</li>
-</ul>
-
-<ol class="u-text u-text-6">
-	<li>Under&nbsp;<span style="text-decoration: underline !important; font-style: italic;">Mods</span>&nbsp;-&gt;&nbsp;<span style="font-style: italic; text-decoration: underline !important;">...More</span>&nbsp;select&nbsp;<span style="text-decoration: underline !important; font-style: italic;">add watched folder...</span>&nbsp;then&nbsp;<span style="text-decoration: underline !important; font-style: italic;">add custom folder....</span> Navigate to your extensions root folder and select the newly created build folder. If successful it will have added that folder in the list of watched folders and a green box would have shown stating that a mod has been installed.</li>
-	<li>Load&nbsp;<span style="text-decoration: underline !important; font-style: italic;">Antistasi Ultimate - Mod</span>&nbsp;and the newly installed&nbsp;<span style="text-decoration: underline !important; font-style: italic;">A3 Antistasi Ultimate Extender example</span>&nbsp;mods.</li>
-	<li>Start the game and confirm that the new template is loaded by starting a local host session under multiplayer. Then start a game of antistasi and confirm that the new and overwritten templates are there (these are the example templates provided with the extender).</li>
-	<li>The new templates are<span style="font-size: 1.125rem; background-color: #666666; color: #ffffff; font-family: 'Open Sans',sans-serif;">&nbsp;</span> <span style="font-size: 1.125rem; background-color: #666666; font-family: 'Open Sans',sans-serif; text-decoration: underline !important; font-style: italic;">AAF</span> <span style="font-size: 1.125rem; background-color: #666666; color: #ffffff; font-family: 'Open Sans',sans-serif;">&nbsp;</span> <span style="font-size: 1.125rem; background-color: #666666; color: #ffffff; font-family: 'Open Sans',sans-serif;">and</span> <span style="font-size: 1.125rem; background-color: #666666; color: #ffffff; font-family: 'Open Sans',sans-serif;">&nbsp;</span> <span style="font-size: 1.125rem; background-color: #666666; font-family: 'Open Sans',sans-serif;">AAF2</span> <span style="font-size: 1.125rem; background-color: #666666; color: #ffffff; font-family: 'Open Sans',sans-serif;">.</span></li>
-</ol>
-
-<h5 class="u-text u-text-7">Assuming everything went well you are now ready to make your own modifications. Remember to remove unused content and read thoroughly through the files while making any edits. As a hint all content is added from the config.cpp files located within each of the addons so you can follow that down to the files that govern the different parts like templates and functions etc.</h5>
-</div>
-</div>
-</div>
-
-<div class="u-accordion-item u-accordion-item-4"><a aria-controls="accordion-a6bb" aria-selected="false" class="u-accordion-link u-active-grey-70 u-button-style u-grey-80 u-text-white u-accordion-link-4" id="link-accordion-a6bb"> <span class="u-accordion-link-text"> Example additions</span><span class="u-accordion-link-icon u-active-grey-80 u-border-2 u-border-custom-color-4 u-icon u-icon-circle u-text-active-white u-text-white u-icon-4"><svg class="u-svg-link" preserveaspectratio="xMidYMin slice" style="" viewbox="0 0 426.66667 426.66667"> <use xlink:href="#svg-f384" xmlns:xlink="http://www.w3.org/1999/xlink"></use> </svg><svg class="u-svg-content" id="svg-f384" viewbox="0 0 426.66667 426.66667"> <path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"> </path> </svg></span> </a>
-
-<div aria-labelledby="link-accordion-a6bb" class="u-accordion-pane u-align-left u-container-style u-grey-60 u-accordion-pane-4" id="accordion-a6bb">
-<div class="u-container-layout u-container-layout-5">
-<div class="u-accordion u-faq u-spacing-20 u-accordion-2">
-<div class="u-accordion-item"><a aria-controls="accordion-6327" aria-selected="true" class="active u-accordion-link u-active-grey-70 u-border-1 u-border-active-grey-70 u-border-grey-15 u-border-hover-grey-75 u-border-no-left u-border-no-right u-border-no-top u-button-style u-grey-75 u-hover-grey-70 u-text-black u-accordion-link-5" id="link-accordion-6327"> <span class="u-accordion-link-text"> Maps</span><span class="u-accordion-link-icon u-active-grey-75 u-border-2 u-border-custom-color-4 u-hover-grey-70 u-icon u-icon-circle u-text-white u-icon-5"><svg class="u-svg-link" preserveaspectratio="xMidYMin slice" style="" viewbox="0 0 16 16"> <use xlink:href="#svg-94a0" xmlns:xlink="http://www.w3.org/1999/xlink"></use> </svg><svg class="u-svg-content" id="svg-94a0" style="" viewbox="0 0 16 16" x="0px" y="0px"> <path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
-	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path> </svg></span> </a>
-
-<div aria-labelledby="link-accordion-6327" class="u-accordion-active u-accordion-pane u-align-left u-container-style u-grey-90 u-opacity u-opacity-40 u-accordion-pane-5" id="accordion-6327">
-<div class="u-container-layout u-container-layout-6">
-<div class="fr-view u-clearfix u-rich-text u-text">
-<h5 id="isPasted">Antistasi now supports 3rd party map porting.</h5>
-
-<h5>There are two examples added for working with maps. Adding a new map and overwriting/applying additions for an existing map.</h5>
-
-<h5>In this examples there are also demonstrations of mission specific overwrites of&nbsp;<span style="text-decoration: underline; font-style: italic;">mapInfo</span> and&nbsp;<span style="text-decoration: underline; font-style: italic;">navGrid</span> data as well as global overwrite/addition.</h5>
-
-<h5>You will find all the information regarding this under&nbsp;<span style="text-decoration: underline; font-style: italic;">your extension mod/addons/maps</span>.</h5>
-
-<h5>Take care to study all the files in the addon to not miss crucial porting steps.</h5>
-</div>
-</div>
-</div>
-</div>
-
-<div class="u-accordion-item"><a aria-controls="accordion-4aab" aria-selected="false" class="u-accordion-link u-active-grey-70 u-border-1 u-border-active-grey-70 u-border-grey-15 u-border-hover-grey-75 u-border-no-left u-border-no-right u-border-no-top u-button-style u-grey-75 u-hover-grey-70 u-text-black u-accordion-link-6" id="link-accordion-4aab"> <span class="u-accordion-link-text"> Templates</span><span class="u-accordion-link-icon u-active-grey-75 u-border-2 u-border-custom-color-4 u-hover-grey-70 u-icon u-icon-circle u-text-white u-icon-6"><svg class="u-svg-link" preserveaspectratio="xMidYMin slice" style="" viewbox="0 0 16 16"> <use xlink:href="#svg-9ba4" xmlns:xlink="http://www.w3.org/1999/xlink"></use> </svg><svg class="u-svg-content" id="svg-9ba4" style="" viewbox="0 0 16 16" x="0px" y="0px"> <path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
-	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path> </svg></span> </a>
-
-<div aria-labelledby="link-accordion-4aab" class="u-accordion-pane u-align-left u-container-style u-grey-90 u-opacity u-opacity-40 u-accordion-pane-6" id="accordion-4aab">
-<div class="u-container-layout u-container-layout-7">
-<div class="fr-view u-clearfix u-rich-text u-text">
-<h5 id="isPasted">Antistasi now supports 3rd party template additions/overwrites.</h5>
-
-<h5>To add new templates or overwrite existing ones follow the demonstration given in&nbsp;<span style="text-decoration: underline; font-style: italic;">your extension mod/addons/templates/Templates/Templates.hpp</span>.</h5>
-
-<h5>Note that while you can add addon vehicle templates to Antistasi at this time, it should be noted that it is still a limited system and you shouldn&#39;t expect full functionality from them atm.</h5>
-
-<h5>Again it&#39;s important to read through all the files in the <span style="text-decoration: underline; font-style: italic;">templates</span> addon to not miss important steps.</h5>
-</div>
-</div>
-</div>
-</div>
-
-<div class="u-accordion-item"><a aria-controls="accordion-eb1f" aria-selected="false" class="u-accordion-link u-active-grey-70 u-border-1 u-border-active-grey-70 u-border-grey-15 u-border-hover-grey-75 u-border-no-left u-border-no-right u-border-no-top u-button-style u-grey-75 u-hover-grey-70 u-text-black u-accordion-link-7" id="link-accordion-eb1f"> <span class="u-accordion-link-text"> Functionality</span><span class="u-accordion-link-icon u-active-grey-75 u-border-2 u-border-custom-color-4 u-hover-grey-70 u-icon u-icon-circle u-text-white u-icon-7"><svg class="u-svg-link" preserveaspectratio="xMidYMin slice" style="" viewbox="0 0 16 16"> <use xlink:href="#svg-59fe" xmlns:xlink="http://www.w3.org/1999/xlink"></use> </svg><svg class="u-svg-content" id="svg-59fe" style="" viewbox="0 0 16 16" x="0px" y="0px"> <path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
-	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path> </svg></span> </a>
-
-<div aria-labelledby="link-accordion-eb1f" class="u-accordion-pane u-align-left u-container-style u-grey-90 u-opacity u-opacity-40 u-accordion-pane-7" id="accordion-eb1f">
-<div class="u-container-layout u-container-layout-8">
-<div class="fr-view u-clearfix u-rich-text u-text">
-<ul>
-	<li>Antistasi now has events that you can listen to and extend existing functionality. A list of all events and their parameters can be found in the in game config under: <span style="text-decoration: underline; font-style: italic;">A3A &gt;&gt; Events</span>.</li>
-	<li id="isPasted" style="box-sizing: border-box; margin-top: 0.25em;">In addition you can overwrite any of Antistasi&#39;s functions to add, change or remove functionality. This includes full systems (be aware that this is more complex and can break on updates). To do so, simply add a function to the <span style="text-decoration: underline; font-style: italic;">A3A</span> and/or <span style="text-decoration: underline; font-style: italic;">A3U</span> and/or <span style="font-style: italic; text-decoration: underline;">A3UE</span> class of <span style="text-decoration: underline; font-style: italic;">CfgFunctions.hpp</span> under the addon functions (you can also replicate the config.cpp to allow this in any other addon).</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="u-accordion-item u-accordion-item-8"><a aria-controls="62b8" aria-selected="false" class="u-accordion-link u-active-grey-70 u-button-style u-grey-80 u-text-white u-accordion-link-8" id="link-62b8"> <span class="u-accordion-link-text"> Releasing your extension</span><span class="u-accordion-link-icon u-active-grey-80 u-border-2 u-border-custom-color-4 u-icon u-icon-circle u-text-active-white u-text-white u-icon-8"><svg class="u-svg-link" preserveaspectratio="xMidYMin slice" style="" viewbox="0 0 16 16"> <use xlink:href="#svg-bd25" xmlns:xlink="http://www.w3.org/1999/xlink"></use> </svg><svg class="u-svg-content" id="svg-bd25" viewbox="0 0 16 16" x="0px" y="0px"> <path d="M8,10.7L1.6,5.3c-0.4-0.4-1-0.4-1.3,0c-0.4,0.4-0.4,0.9,0,1.3l7.2,6.1c0.1,0.1,0.4,0.2,0.6,0.2s0.4-0.1,0.6-0.2l7.1-6
-	c0.4-0.4,0.4-0.9,0-1.3c-0.4-0.4-1-0.4-1.3,0L8,10.7z"></path> </svg></span> </a>
-
-<div aria-labelledby="link-62b8" class="u-accordion-pane u-align-left u-container-style u-grey-60 u-accordion-pane-8" id="62b8">
-<div class="u-container-layout u-valign-top u-container-layout-9">
-<h5 class="u-text u-text-default u-text-11">Now that you have added the content/functionality you wanted its time to release the extension.<br />
-You should first make sure that any example content not being used is removed, you can do so either carefully by removing lines from the configs, or by removing a addon folder completely.</h5>
-
-<ul class="u-text u-text-default u-text-12">
-	<li>Note that you can not remove the&nbsp;<span style="text-decoration: underline !important; font-style: italic;">core</span>&nbsp;addon.</li>
-</ul>
-
-<h5 class="u-text u-text-default u-text-13">Next update the mod.cpp and meta.cpp files to contain the correct information for you (for steam release you can delete the meta.cpp from the build folder afterwards).<br />
-<br />
-Now simply run the&nbsp;<span style="text-decoration: underline !important; font-style: italic;">Build</span>&nbsp;script in the root folder to build it and use the arma tools for signing and publishing the extension.&nbsp;(Note: it will not sign it for you, this needs to be done manually before publishing with&nbsp;Arma 3 Tools&nbsp;-&gt;&nbsp;<span style="text-decoration: underline !important; font-style: italic;">DSUtils</span>&nbsp;&amp;&nbsp;<span style="text-decoration: underline !important; font-style: italic;">Publisher</span>). You can also distribute it in other ways other than the steam workshop simply by sending the build output to the users.</h5>
-</div>
-</div>
-</div>
-</div>
-
-<h3 class="u-text u-text-default u-text-14">Small disclaimer:</h3>
-
-<h5 class="u-align-left u-text u-text-default u-text-15">When you want other Antistasi players to easily find your extension, give it a descriptive name including the abbreviation&nbsp;<span style="text-decoration: underline !important; font-style: italic;">A3UE</span>&nbsp;like for example&nbsp;<span style="text-decoration: underline !important; font-style: italic;">A3UE - My awesome Antistasi Ultimate extension</span>.</h5>
-</div>
-</section>
-
-<footer class="u-clearfix u-footer u-grey-80" id="sec-2c43">
-<div class="u-clearfix u-sheet u-sheet-1"><img alt="" class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" data-image-height="512" data-image-width="512" src="../images/Yellow.png?rand=54ab" />
-<div class="u-list u-list-1">
-<div class="u-repeater u-repeater-1">
-<div class="u-container-style u-list-item u-repeater-item">
-<div class="u-container-layout u-similar-container u-container-layout-1"><a class="u-active-none u-align-center u-border-2 u-border-active-grey-30 u-border-hover-grey-15 u-border-no-left u-border-no-right u-border-no-top u-border-white u-btn u-button-style u-custom-item u-hover-none u-none u-text-hover-grey-15 u-text-white u-btn-1" href="/About-Page">About us</a></div>
-</div>
-
-<div class="u-container-style u-list-item u-repeater-item">
-<div class="u-container-layout u-similar-container u-container-layout-2"><a class="u-active-none u-align-center u-border-2 u-border-active-grey-30 u-border-hover-grey-15 u-border-no-left u-border-no-right u-border-no-top u-border-white u-btn u-button-style u-custom-item u-hover-none u-none u-text-hover-grey-15 u-text-white u-btn-2" href="/Contact-us">Contact us</a></div>
-</div>
-
-<div class="u-container-style u-list-item u-repeater-item">
-<div class="u-container-layout u-similar-container u-container-layout-3"><a class="u-active-none u-align-center u-border-2 u-border-active-grey-30 u-border-hover-grey-15 u-border-no-left u-border-no-right u-border-no-top u-border-white u-btn u-button-style u-custom-item u-hover-none u-none u-text-hover-grey-15 u-text-white u-btn-3" href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate/blob/stable/LICENSE" target="_blank">Licenses</a></div>
-</div>
-
-<div class="u-container-style u-list-item u-repeater-item">
-<div class="u-container-layout u-similar-container u-container-layout-4"><a class="u-active-none u-align-center u-border-2 u-border-active-grey-30 u-border-hover-grey-15 u-border-no-left u-border-no-right u-border-no-top u-border-white u-btn u-button-style u-custom-item u-hover-none u-none u-text-hover-grey-15 u-text-white u-btn-4" href="https://drive.google.com/drive/folders/1R3Ylk2RGkukywdA9IhdoURtnonqs7W8Y?usp=sharing" target="_blank">Resources</a></div>
-</div>
-</div>
-</div>
-
-<div class="u-border-3 u-border-grey-dark-1 u-expanded-width-sm u-expanded-width-xs u-line u-line-horizontal u-line-1"></div>
-
-<div class="u-social-icons u-spacing-10 u-social-icons-1"><a class="u-social-url" data-type="YouTube" href="https://www.youtube.com/@AntistasiUltimateCommunity" target="_blank" title="YouTube"><span class="u-icon u-social-icon u-social-youtube u-icon-1"><svg class="u-svg-link" preserveaspectratio="xMidYMin slice" style="" viewbox="0 0 112 112"> <use xlink:href="#svg-28d2" xmlns:xlink="http://www.w3.org/1999/xlink"></use> </svg><svg class="u-svg-content" id="svg-28d2" viewbox="0 0 112 112" x="0" y="0"> <circle cx="56.1" cy="56.1" fill="currentColor" r="55"></circle> <path d="M74.9,33.3H37.3c-7.4,0-13.4,6-13.4,13.4v18.8c0,7.4,6,13.4,13.4,13.4h37.6c7.4,0,13.4-6,13.4-13.4V46.7 C88.3,39.3,82.3,33.3,74.9,33.3L74.9,33.3z M65.9,57l-17.6,8.4c-0.5,0.2-1-0.1-1-0.6V47.5c0-0.5,0.6-0.9,1-0.6l17.6,8.9 C66.4,56,66.4,56.8,65.9,57L65.9,57z" fill="#FFFFFF"> </path> </svg></span> </a> <a class="u-social-url" data-type="Github" href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank" title="Github"><span class="u-icon u-social-github u-social-icon u-icon-2"><svg class="u-svg-link" preserveaspectratio="xMidYMin slice" style="" viewbox="0 0 112 112"> <use xlink:href="#svg-915a" xmlns:xlink="http://www.w3.org/1999/xlink"></use> </svg><svg class="u-svg-content" id="svg-915a" viewbox="0 0 112 112" x="0" y="0"> <circle cx="56.1" cy="56.1" fill="currentColor" r="55"></circle> <path d="M88,51.3c0-5.5-1.9-10.2-5.3-13.7c0.6-1.3,2.3-6.5-0.5-13.5c0,0-4.2-1.4-14,5.3c-4.1-1.1-8.4-1.7-12.7-1.8
-	c-4.3,0-8.7,0.6-12.7,1.8c-9.7-6.6-14-5.3-14-5.3c-2.8,7-1,12.2-0.5,13.5C25,41.2,23,45.7,23,51.3c0,19.6,11.9,23.9,23.3,25.2
-	c-1.5,1.3-2.8,3.5-3.2,6.8c-3,1.3-10.2,3.6-14.9-4.3c0,0-2.7-4.9-7.8-5.3c0,0-5-0.1-0.4,3.1c0,0,3.3,1.6,5.6,7.5c0,0,3,9.1,17.2,6
-	c0,4.3,0.1,8.3,0.1,9.5h25.2c0-1.7,0.1-7.2,0.1-14c0-4.7-1.7-7.9-3.4-9.4C76,75.2,88,70.9,88,51.3z" fill="#FFFFFF"></path> </svg></span> </a> <a class="u-social-url" data-type="Custom" href="https://discord.gg/antistasiultimate" target="_blank" title="Discord"><span class="u-file-icon u-icon u-social-custom u-social-icon u-icon-3"><img alt="" src="../images/3670157.png" /></span> </a> <a class="u-social-url" data-type="Custom" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032" target="_blank" title="Steam Page"><span class="u-file-icon u-icon u-social-custom u-social-icon u-icon-4"><img alt="" src="../images/3670233.png" /></span> </a></div>
-
-<p class="u-custom-font u-font-open-sans u-text u-text-default u-text-grey-50 u-text-1">Copyright &copy; 2023 - 2024 Antistasi Ultimate All Rights Reserved&nbsp;</p>
-</div>
-</footer>
+<body>
+    <!-- Header Start -->
+    <header class="sticky-header">
+        <a href="/" class="logo-link">
+            <img src="../images/SiteLogo1.png" alt="Logo" class="header-logo" />
+        </a>
+
+        <div class="header-dropdowns">
+            <div class="dropdown">
+                <button class="dropbtn" style="cursor:pointer">
+                    <a class="dropbtn-text" href="/">Home</a>
+                </button>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <span class="dropbtn-text">Information</span>
+                    <span class="dropdown-arrow">▼</span>
+                </button>
+                <div class="dropdown-content">
+                    <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank">Documentation</a>
+                    <a href="/Useful-Information">More Info</a>
+                    <a href="/FAQ">FAQ</a>
+                    <a href="/About-Page">About</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <span class="dropbtn-text">Links</span>
+                    <span class="dropdown-arrow">▼</span>
+                </button>
+                <div class="dropdown-content">
+                    <a href="https://units.arma3.com/unit/antistasiultimatecommunity" target="_blank">Community</a>
+                    <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank">Github</a>
+                    <a href="https://discord.gg/antistasiultimate" target="_blank">Discord</a>
+                    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032" target="_blank">Steam
+                        Workshop</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Header -->
+    <nav class="mobile-navbar">
+        <a href="/" class="logo-link">
+            <img src="../images/SiteLogo1.png" alt="Logo" class="header-logo" />
+        </a>
+        <button class="menu-toggle" onclick="toggleMobileMenu(this)">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </nav>
+    <div class="mobile-nav-links" id="mobileNav">
+        <div class="mobile-menu-links">
+            <a href="/" class="mobile-nav-links-home">
+                <h3>Home</h3>
+            </a>
+            <h3>Information</h3>
+            <div class="content-mods-divider-full"></div>
+            <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank">Documentation</a>
+            <a href="/Useful-Information">More Info</a>
+            <a href="/FAQ">FAQ</a>
+            <a href="/About-Page">About</a>
+            <div style="padding:10px"></div>
+            <h3>Links</h3>
+            <div class="content-mods-divider-full"></div>
+            <a href="https://units.arma3.com/unit/antistasiultimatecommunity" target="_blank">Community</a>
+            <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank">Github</a>
+            <a href="https://discord.gg/antistasiultimate" target="_blank">Discord</a>
+            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032" target="_blank">Steam
+                Workshop</a>
+        </div>
+    </div>
+    <!-- Header End -->
+    <section class="useful-info-section">
+        <h2 class="useful-info-header">Here you will find some useful information!</h2>
+        <h3 class="useful-info-subheader">Developer Documentation</h3>
+        <div class="info-code-section">
+            <h3 class="useful-info-header">Utility Functions</h3>
+            <div class="info-block">
+                <h4 class="info-block-title">Spawn enemy support at players position</h4>
+                <pre class="info-code-block"><code class="language-sqf">private _type = "CAS"; // CASDIVE, QRF, Etc
+private _side = Occupants; // Occupants/Invaders
+["CAS", Occupants, "attack", 500, player, getPosATL player, 0.8, 0] call A3A_fnc_createSupport;</code></pre>
+            </div>
+            <div class="info-block">
+                <h4 class="info-block-title">Spawn spec ops HQ attack mission (Server Exec)</h4>
+                <pre class="info-code-block"><code class="language-sqf">private _side = Occupants; // Occupants, Invaders
+    
+private _marker = ["CSAT_carrier", "NATO_carrier"] select {_side isEqualTo Occupants};
+
+[_side, _marker, 0] spawn A3A_fnc_attackHQ;</code></pre>
+            </div>
+            <div class="info-block">
+                <h4 class="info-block-title">Spawn Trader Mission</h4>
+                <p class="info-block-description">Spawns a trader mission on a new save</p>
+                <pre
+                    class="info-code-block"><code class="language-sqf">[] remoteExec ["SCRT_fnc_trader_prepareTraderQuest", 2];</code></pre>
+            </div>
+            <div class="info-block">
+                <h4 class="info-block-title">Export Crate To Arms Dealer</h4>
+                <p class="info-block-description">Grabs all the weapons out of a crate, grabs mags for them, then puts
+                    it into a formatted config array for the arms dealer<br>(returns into your clipboard)</p>
+                <pre
+                    class="info-code-block"><code class="language-sqf">[_target, "modPrefix", "categoryPrefix"] call A3U_fnc_exportCrate;</code></pre>
+                <p class="info-block-description">You can also have multiple crates and do this to export them one at a
+                    time</p>
+                <pre class="info-code-block"><code class="language-sqf">//crate 1
+this addAction ["copy", {[(_this select 0), "RHS", "Rifles"] call A3U_fnc_exportCrate}];
+//crate 2
+this addAction ["copy", {[(_this select 0), "RHS", "Sniper Rifles"] call A3U_fnc_exportCrate}];</code></pre>
+            </div>
+            <div class="info-block">
+                <h4 class="info-block-title">Export Pylon Loadout For Config</h4>
+                <p class="info-block-description">Grabs the current pylon loadout of an air vehicle and exports it for
+                    config<br>(returns into your clipboard)</p>
+                <pre
+                    class="info-code-block"><code class="language-sqf">[_target] call A3U_fnc_exportPylons;</code></pre>
+            </div>
+            <div class="info-block">
+                <h4 class="info-block-title">Draw cargo seats of vehicles, with index</h4>
+                <p class="info-block-description">(doesn't always work with modded vehicles, due to weird setups)</p>
+                <pre
+                    class="info-code-block"><code class="language-sqf">[cursorObject] call A3U_fnc_logisticsGrabSeats;</code></pre>
+            </div>
+            <div class="info-block">
+                <h4 class="info-block-title">Logging</h4>
+                <pre
+                    class="info-code-block"><code class="language-sqf">["Message", _fncPath] call A3U_fnc_log;</code></pre>
+            </div>
+            <div class="info-block">
+                <h4 class="info-block-title">cfgPatches check</h4>
+                <pre
+                    class="info-code-block"><code class="language-sqf">["cfgPatchesClass"] call A3U_fnc_hasAddon;</code></pre>
+                <p class="info-block-description">Alternate Syntax</p>
+                <pre
+                    class="info-code-block"><code class="language-sqf">[["cfgPatchesClass1", "cfgPatchesClass2"]] call A3U_fnc_hasAddon;</code></pre>
+            </div>
+            <div class="info-block">
+                <h4 class="info-block-title">Weight Test</h4>
+                <p class="info-block-description">Logs occurence of each value over 10000 iterations</p>
+                <pre
+                    class="info-code-block"><code class="language-sqf">[_values, _weights] call A3U_fnc_weightTest;</code></pre>
+            </div>
+            <div class="info-block">
+                <h4 class="info-block-title">Change faction money/hr</h4>
+                <p class="info-block-description">Changes faction money and hr<br>(takes effect immediately, UI will not
+                    update until next tick)</p>
+                <pre
+                    class="info-code-block"><code class="language-sqf">[0,0] remoteExec ["A3A_fnc_resourcesFIA",2]; //1 param - hq, 2 param - money</code></pre>
+            </div>
+            <div class="info-block">
+                <h4 class="info-block-title">Debug Rivals</h4>
+                <p class="info-block-description">Sets up the rivals, and reveals their location on the commander menu
+                </p>
+                <pre class="info-code-block"><code class="language-sqf">[] spawn {
+    [] remoteExecCall ["SCRT_fnc_rivals_activate", 2];
+    uiSleep 2;
+    [10000] call SCRT_fnc_rivals_addProgressToRivalsLocationReveal;
+};</code></pre>
+            </div>
+        </div>
+
+        <div class="info-code-section">
+            <h3 class="useful-info-header">Python Stuff</h3>
+            <div class="info-block">
+                <h4 class="info-block-title">Town Generator</h4>
+                <p class="info-block-description">
+                <p class="info-block-description"><a class="info-link"
+                        href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate/tree/unstable/Tools/TownGenerator">Town
+                        Generator</a> is a bundle of 2 python scripts, input.py and sort.py<br><br>sort.py does the
+                    heavy lifting and doesn't necessarily need to be used
+                    directly (input.py imports the sort.py function). input.py can be ran and will prompt you to put in
+                    an array provided by <a class="info-link"
+                        href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate/blob/unstable/A3A/addons/ultimate/functions/Utility/fn_exportTowns.sqf">A3U_fnc_exportTowns</a>.<br><br>After
+                    selecting an export type, it will then provide you with a list of towns/population that you can
+                    paste into a mapInfo.hpp file.</p>
+            </div>
+        </div>
+
+        <div class="info-code-section">
+            <h3 class="useful-info-header">VSCode Stuff</h3>
+            <div class="info-block">
+                <h4 class="info-block-title">VSCode arma-dev.json</h4>
+                <pre class="info-code-block"><code class="language-js">{
+    "title": "Antistasi Ultimate",
+    "name": "A3U",
+    "author": "Antistasi Ultimate Dev Team",
+    "website": "",
+    "version": "0.0.1",
+    "buildPath": "build",
+    "privateKey": "",
+    "serverDirs": [],
+    "serverUse32bit": false,
+    "clientDirs": [
+        "A3A/addons/config_fixes",
+        "A3A/addons/core",
+        "A3A/addons/events",
+        "A3A/addons/garage",
+        "A3A/addons/gui",
+        "A3A/addons/hals",
+        "A3A/addons/jeroen_arsenal",
+        "A3A/addons/logistics",
+        "A3A/addons/main_menu",
+        "A3A/addons/maps",
+        "A3A/addons/patcom",
+        "A3A/addons/scrt",
+        "A3A/addons/ultimate"
+    ],
+    "clientMods": [],
+    "ftpConnection": {},
+    "steamPath": "pathToSteamLibrary"
+}</code></pre>
+            </div>
+        </div>
+        <div class="info-code-section">
+            <h3 class="useful-info-header">Antistasi Ultimate Extender Documentation</h3>
+            <div class="info-block">
+                <h4 class="info-block-title">Antistasi Ultimate Extender Example</h4>
+                <p class="info-block-description">This is an example of how you could extend Antistasi Ultimate with new
+                    maps and templates or overwrite existing ones. This is a fork of <a class="info-link"
+                        href="https://github.com/official-antistasi-community/A3AExtender">A3AExtender</a> made by <a
+                        class="info-link" href="https://github.com/official-antistasi-community">Antistasi Official
+                        Community Arma 3</a></p>
+                <div class="info-divider-full"></div>
+                <h4 class="info-block-title">Requirements</h4>
+                <p class="info-block-description">
+                <ul class="info-block-description">
+                    <li>Arma 3</li>
+                    <li>Arma 3 Tools</li>
+                </ul>
+                Arma 3 and Arma 3 Tools need to be run once from steam.</p>
+                <div class="info-divider-full"></div>
+                <h4 class="info-block-title">Useful Things</h4>
+                <p class="info-block-description">
+                <ul class="info-block-description">
+                    <li><a class="info-link" href="https://github.com/Westalgie/A3UExtender">Full Documentation</a></li>
+                    <li><a class="info-link"
+                            href="https://steamcommunity.com/sharedfiles/filedetails/?id=2369477168">Advanced Developer
+                            Tools</a></li>
+                    <li><a class="info-link" href="https://paa.gruppe-adler.de/">https://paa.gruppe-adler.de/</a> (Image
+                        > PAA. If converting multiple files, use ImageToPAA included in Arma 3 Tools)</li>
+                    <li>Some helpful <a class="info-link"
+                            href="https://github.com/Westalgie/A3UExtender/wiki/Developer-Advice">Developer Advice</a>
+                    </li>
+                    <li><a class="info-link" href="https://code.visualstudio.com/download">VSCode</a></li>
+                    <li><a class="info-link"
+                            href="https://marketplace.visualstudio.com/items?itemName=ole1986.arma-dev">Arma Dev</a>
+                        (Extention for vscode)</li>
+                    <li><a class="info-link"
+                            href="https://marketplace.visualstudio.com/items?itemName=bux578.vscode-openlastrpt">Arma 3
+                            - Open Last RPT</a> (Extention for vscode)</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <p class="info-disclaimer">
+            <b>Small disclaimer:</b><br>
+            When you want other Antistasi players to easily find your extension, give it a descriptive name including
+            the abbreviation
+            <b>A3UE</b> like for example <i>A3UE - My awesome Antistasi Ultimate extension</i>.
+        </p>
+    </section>
+    <!-- Footer Start -->
+    <footer class="site-footer">
+        <div class="footer-logo-container">
+            <img src="../images/Yellow.png" alt="Logo" class="footer-logo">
+        </div>
+        <div class="footer-links">
+            <a href="/About-Page">ABOUT US</a>
+            <a href="https://discord.gg/antistasiultimate" target="_blank">CONTACT US</a>
+            <a href="https://drive.google.com/file/d/1UrDAuN9-9us8Xb-AIFxLrvs6tzw2hbb5/view?usp=sharing"
+                target="_blank">LICENSES</a>
+            <a href="https://drive.google.com/drive/folders/1R3Ylk2RGkukywdA9IhdoURtnonqs7W8Y?usp=sharing"
+                target="_blank">RESOURCES</a>
+        </div>
+        <hr class="footer-divider">
+        <div class="footer-icons">
+            <a href="https://www.youtube.com/@AntistasiUltimateCommunity"><img src="../images/icons/youtubelogo.png"
+                    alt="YouTube"></a>
+            <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank"><img
+                    src="../images/icons/githublogo.png" alt="GitHub"></a>
+            <a href="https://discord.gg/antistasiultimate" target="_blank"><img src="../images/icons/discordlogo.png"
+                    alt="Discord"></a>
+            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032" target="_blank"><img
+                    src="../images/icons/steamlogo.png" alt="Steam"></a>
+        </div>
+        <p class="footer-copyright">
+            Copyright © 2023 - 2025 Antistasi Ultimate All Rights Reserved
+        </p>
+        <a class="shhh" href="/8x43jq9fsda6hjs32fsa95esad">press me</a>
+    </footer>
+    <!-- Footer End -->
 </body>
+
 </html>

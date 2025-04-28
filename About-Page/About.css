@@ -1,0 +1,203 @@
+.about-section {
+  cursor: default;
+  padding: 0 0 30px 0;
+  background-color: #0d1117;
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-top-wrapper {
+  position: relative;
+  background-image: url('../images/Connect.webp');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  margin: 0 auto 0;
+}
+
+.about-top-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.about-top {
+  font-family: "Abel", sans-serif;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px 10px;
+  gap: 20px;
+}
+
+.about-logo {
+  max-width: 300px;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  max-width: 95%;
+}
+
+.about-info h2 {
+  font-family: "Black Ops One";
+  font-size: 2rem;
+  margin: 0;
+}
+
+.about-info p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.about-button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-family: "Black Ops One";
+  background-color: #ffd90000;
+  border: solid;
+  border-width: 2px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.9s ease, border-color 0.9s ease, color 0.9s ease;
+  margin-bottom: 30px;
+}
+
+.about-button:hover {
+  color: #1c1c1c;
+  background-color: #ffd200;
+  border-color: #00000000;
+}
+
+.team-header {
+  font-family: 'Black Ops One', sans-serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+  height: auto;
+  transition: height 0.9s ease;
+}
+
+.team-member-wrapper {
+  font-family: "Abel", sans-serif;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.9s ease;
+  width: 220px;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  user-select: none;
+}
+
+.team-member {
+  text-align: center;
+  padding: 20px;
+}
+
+.team-member-wrapper:hover .contact-slideout,
+.team-member-wrapper.active .contact-slideout {
+  transform: translateY(0%);
+  opacity: 1;
+  z-index: 0;
+}
+
+.team-member-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-slideout {
+  background: rgba(209, 185, 2, 0.95);
+  border-radius: 0 0 20px 20px;
+  color: #0d1117;
+  text-align: center;
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.9s ease, padding 0.9s ease;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.contact-icons img {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.9s ease;
+}
+
+.contact-icons a:hover img {
+  transform: scale(1.2);
+}
+
+.team-member-wrapper:hover .contact-slideout {
+  max-height: 100px;
+  padding: 10px;
+}
+
+.about-divider {
+  border: 0;
+  height: 2px;
+  background-color: #d1b902;
+  margin: 40px auto 20px auto;
+  width: 80%;
+}
+
+.contrib-header {
+  font-family: "Black Ops One";
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 15px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .about-top {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-logo {
+    margin: 0 0 20px 0;
+  }
+
+  .about-info {
+    text-align: center;
+  }
+}
+
+.about-link {
+  color: #3193f8;
+  text-decoration: none;
+}
+
+.about-link:hover {
+  color: #79bcff;
+  text-decoration: underline;
+}

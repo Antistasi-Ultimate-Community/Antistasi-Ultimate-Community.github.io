@@ -1,0 +1,72 @@
+.pong-game-section {
+  width: 100%;
+  height: 95vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pong-game {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.paddle {
+  width: 15px;
+  height: 100px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.ball {
+  width: 15px;
+  height: 15px;
+  background-image: url('https://i.imgur.com/38sjrM5.png');
+  background-size: cover;
+  position: absolute;
+}
+
+.score {
+  color: #fff;
+  font-size: 2rem;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.game-start-screen,
+.game-end-screen {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  text-align: center;
+  z-index: 100;
+  display: none;
+}
+
+.game-start-screen h2,
+.game-end-screen h2 {
+  margin: 0;
+}
+
+#play-again-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffd700;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#play-again-btn:hover {
+  background-color: #f1c40f;
+}

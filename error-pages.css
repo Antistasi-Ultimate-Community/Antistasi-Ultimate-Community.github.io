@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Black Ops One', sans-serif;
+  background-color: #1b1b1b;
+  color: #fff;
+  height: 100vh;
+  background-image: url("images/Connect.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.body-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-color: #1b1b1b51;
+  height: 100%;
+  width: 100%;
+}
+
+.error-container {
+  background-color: #0d111799;
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  width: fit-content;
+  max-width: 95%;
+}
+
+.error-title {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-weight: bold;
+  color: #ffd200;
+}
+
+.error-subtitle {
+  font-size: clamp(1.2rem, 2vw, 4rem);
+  color: #ffd200;
+  margin-bottom: 10px;
+}
+
+.error-description {
+  font-size: clamp(0.8rem, 1vw, 2rem);
+  color: #d0d0d0;
+  margin-bottom: 10px;
+}
+
+.error-button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-family: "Black Ops One";
+  background-color: #ffd90000;
+  border: solid;
+  border-width: 2px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.9s ease, border-color 0.9s ease, color 0.9s ease;
+}
+
+.error-button:hover {
+  color: #1c1c1c;
+  background-color: #ffd200;
+  border-color: #00000000;
+}
+
+.error-button:focus {
+  outline: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.error-container {
+  animation: fadeIn 1s ease-out;
+}
