@@ -1,30 +1,54 @@
-
 function resizeTextToFit(elements) {
     elements.forEach(el => {
         const container = el.parentElement;
-        let fontSize = 100; // Start large
-        el.style.fontSize = fontSize + 'px';
-        el.style.whiteSpace = 'nowrap';
 
-        const maxHeight = container.clientHeight; // container inner height
-        const maxWidth = container.clientWidth;  // container inner width
+        if (!container) return;
 
-        // For tooltips, apply a minimum font size
+        const computedStyle = window.getComputedStyle(container);
+        const containerHeight = container.clientHeight
+            - parseFloat(computedStyle.paddingTop)
+            - parseFloat(computedStyle.paddingBottom);
+
+        const containerWidth = container.clientWidth
+            - parseFloat(computedStyle.paddingLeft)
+            - parseFloat(computedStyle.paddingRight);
+
+        // Reset font size first to avoid compounding
+        el.style.fontSize = '100px';
+        el.style.whiteSpace = 'nowrap'; // Try to keep it to one line if applicable
+
         const isTooltip = el.classList.contains('card-tooltip-text');
-        const minFontSize = isTooltip ? 12 : 5; // Tooltips have a minimum of 12px for readability
+        const minFontSize = isTooltip ? 12 : 5;
+        let fontSize = 100;
 
-        // Resize text to fit both width and height of the container
-        while ((el.scrollHeight > maxHeight || el.scrollWidth > maxWidth) && fontSize > minFontSize) {
+        // Temporarily make sure element is visible if it's hidden (like tooltips)
+        const originalVisibility = el.style.visibility;
+        el.style.visibility = 'hidden';
+        el.style.display = 'block';
+        el.style.position = 'absolute';
+
+        while (
+            (el.scrollHeight > containerHeight || el.scrollWidth > containerWidth) &&
+            fontSize > minFontSize
+        ) {
             fontSize -= 1;
             el.style.fontSize = fontSize + 'px';
         }
+
+        // Restore original visibility
+        el.style.visibility = originalVisibility;
+        el.style.position = '';
     });
 }
+
 
 function resizeUITexts() {
     const headings = document.querySelectorAll('.card-top h1');
     const tooltips = document.querySelectorAll('.card-tooltip-text');
-    resizeTextToFit([...headings, ...tooltips]);
+    const tooltiptext = document.querySelectorAll('.card-tooltip');
+    const middlebacktext = document.querySelectorAll('.card-middle-text-back');
+    const middletext = document.querySelectorAll('.card-middle-text');
+    resizeTextToFit([...headings, ...tooltips, ...tooltiptext, ...middlebacktext, ...middletext]);
 }
 
 window.addEventListener('load', resizeUITexts);

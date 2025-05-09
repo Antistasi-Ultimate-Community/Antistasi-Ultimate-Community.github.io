@@ -392,7 +392,7 @@
 }
 
 .card-front {
-  background-image: url('../images/mapcard-bg-front.webp');
+  background-image: url('https://i.imgur.com/ja1q8a4.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -401,7 +401,7 @@
 }
 
 .card-back {
-  background-image: url('../images/mapcard-bg-back.webp');
+  background-image: url('https://i.imgur.com/BANi1Ht.png');
   background-size: cover;
   background-position: center;
   transform: rotateY(180deg);
@@ -434,40 +434,12 @@
   align-items: center;
 }
 
-.card-top h1 {
-  line-height: 1;
-  font-size: 1px;
-  color: white;
-  margin: 0;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-family: 'Black Ops One';
-}
-
 .card-middle {
   height: 83%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-}
-
-.card-image {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  margin-bottom: 5%;
-}
-
-.card-middle-text {
-  text-align: center;
-  font-size: clamp(0.5rem, 0.8vw, 2rem);
-  color: white;
-  padding: 0 5px;
-  font-family: "Abel", sans-serif;
-  margin-top: 0;
 }
 
 .card-bottom {
@@ -480,18 +452,6 @@
   overflow: visible;
 }
 
-.card-top-back h1 {
-  color: white;
-  margin: 0;
-  width: 100%;
-  font-size: clamp(0.5rem, 1vw, 2rem);
-  flex-shrink: 0;
-  box-sizing: border-box;
-  text-overflow: clip;
-  display: inline-block;
-  max-width: 100%;
-}
-
 .card-middle-back {
   height: 14%;
   width: 90%;
@@ -499,20 +459,68 @@
   padding: 0 5px;
   color: rgb(255 255 255);
   text-decoration-line: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 10%;
+  text-decoration-thickness: 10%;
+  text-underline-offset: 25%;
 }
 
 .card-middle-down-back {
   height: 49%;
+  width: 80%;
   flex-direction: column;
+}
+
+.card-bottom-back {
+  height: 18%;
+  position: relative;
+}
+
+.card-top h1 {
+  line-height: 1;
+  font-size: 1px;
+  color: white;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'Black Ops One';
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin-bottom: 5%;
+}
+
+.card-middle-text {
+  text-align: center;
+  font-size: unset;
+  color: white;
+  font-family: "Abel", sans-serif;
+  margin-top: 0;
+  padding: 0 5% 0 5%;
+  margin: -3%;
+  line-height: 0.95;
+}
+
+.card-top-back h1 {
+  color: white;
+  margin: 0;
+  width: 100%;
+  font-size: unset;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  text-overflow: clip;
+  display: inline-block;
+  max-width: 100%;
 }
 
 .card-tooltip,
 .card-middle-text-back {
-  font-size: clamp(0.43rem, 0.8vw, 2rem);
+  font-size: unset;
   color: white;
-  padding: 0 5px;
+  padding: 5px;
   font-family: "Abel", sans-serif;
   margin-top: 0;
 }
@@ -533,7 +541,7 @@
   border-width: 2px;
   padding: 6px 10px;
   border-radius: 10px;
-  font-size: clamp(0.5rem, 1.5vw, 2rem);
+  font-size: unset;
   font-family: "Abel", sans-serif;
   position: absolute;
   bottom: 69%;
@@ -549,25 +557,18 @@
   visibility: visible;
   opacity: 1;
 }
-
-.card-bottom-back {
-  height: 18%;
-  position: relative;
-}
-
+.card-button-jump,
 .card-button {
   font-family: 'Black Ops One';
   white-space: nowrap;
   border-radius: 25px;
   width: 90%;
   height: 60%;
-  max-width: 40vh;
+  font-size: 95%;
   text-decoration: none;
   display: inline-block;
   text-align: center;
   align-content: center;
-  font-size: clamp(0.5rem, 0.8vw, 2rem);
-  margin: 0;
   cursor: pointer;
   background-color: #ffd90000;
   border: solid;
@@ -576,12 +577,19 @@
   transition: background-color 0.9s ease, border-color 0.9s ease, color 0.9s ease;
 }
 
+.card-button-jump {
+  width: auto;
+  padding: 1%;
+}
+
+.card-button-jump:hover,
 .card-button:hover {
   color: #1c1c1c;
   background-color: #ffd200;
   border-color: #00000000;
 }
 
+.card-button-jump:active,
 .card-button:active {
   color: #1c1c1c;
   background-color: #ffd200;
