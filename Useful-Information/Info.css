@@ -3,19 +3,19 @@
   width: 100%;
   padding: 40px 0px;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial;
   text-align: center;
 }
 
 .useful-info-header {
-  font-family: "Oswald";
+  font-family: "Oswald", Arial;
   font-size: clamp(1.4rem, 3vw, 3rem);
   margin-bottom: 10px;
   color: #ffd200;
 }
 
 .useful-info-subheader {
-  font-family: "Abel", sans-serif;
+  font-family: "Abel", Arial;
   font-weight: bolder;
   font-size: clamp(1.1rem, 2.2vw, 2.2rem);
   color: #ffffff;
@@ -43,7 +43,7 @@
 }
 
 .info-block-title {
-  font-family: "Abel", sans-serif;
+  font-family: "Abel", Arial;
   color: #ffd200;
   font-size: clamp(0.9rem, 1.8vw, 2.8rem);
   margin-bottom: 10px;

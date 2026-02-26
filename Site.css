@@ -86,7 +86,7 @@ body {
 }
 
 .header-dropdowns {
-    font-family: "Abel", sans-serif !important;
+    font-family: "Abel", Arial !important;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -210,7 +210,7 @@ body {
 .mobile-nav-links a {
     display: block;
     color: white;
-    font-family: "Abel", sans-serif;
+    font-family: "Abel", Arial;
     font-size: 1rem;
     margin: 10px 0;
     text-decoration: none;
