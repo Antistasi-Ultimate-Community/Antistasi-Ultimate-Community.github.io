@@ -4,7 +4,7 @@
   background-color: #0d111700;
   color: white;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Arial;
 }
 
 .about-top-wrapper {
@@ -25,7 +25,7 @@
 }
 
 .about-top {
-  font-family: "Abel", sans-serif;
+  font-family: "Abel", Arial;
   position: relative;
   z-index: 1;
   display: flex;
@@ -50,7 +50,7 @@
 }
 
 .about-info h2 {
-  font-family: "Oswald";
+  font-family: "Oswald", Arial;
   font-size: 2rem;
   margin: 0;
 }
@@ -63,7 +63,7 @@
 .about-button {
   display: inline-block;
   padding: 5px 10px;
-  font-family: "Oswald";
+  font-family: "Oswald", Arial;
   background-color: #ffd90000;
   border: solid;
   border-width: 2px;
@@ -81,7 +81,7 @@
 }
 
 .team-header {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', Arial;
   font-size: 2em;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -100,7 +100,7 @@
 }
 
 .team-member-wrapper {
-  font-family: "Abel", sans-serif;
+  font-family: "Abel", Arial;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 20px;
   overflow: hidden;
@@ -161,7 +161,7 @@
 }
 
 .contrib-header {
-  font-family: "Oswald";
+  font-family: "Oswald", Arial;
   text-align: center;
   font-size: 1.5em;
   margin-bottom: 15px;
