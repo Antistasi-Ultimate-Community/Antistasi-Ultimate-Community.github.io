@@ -1,0 +1,164 @@
+.dirlist-section {
+  background-color: #0d1117;
+  color: white;
+  padding: 60px 20px;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dirlist-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styled blur box behind the header */
+.dirlist-header-wrapper {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px 20px;
+  margin-bottom: 10px;
+  width: 90%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.dirlist-header h1 {
+  font-family: 'Black Ops One', sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.dirlist-header p {
+  font-family: "Abel", sans-serif;
+  font-size: 1.1em;
+  color: #ccc;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 0;
+}
+
+.dirlist-box {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  width: 80%;
+  max-width: 800px;
+  padding: 30px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.directory-item {
+  margin-bottom: 15px;
+}
+
+.directory-item:last-child {
+  margin-bottom: 0;
+}
+
+.directory-link {
+  width: 100%;
+  text-align: left;
+  padding: 20px 30px;
+  font-size: 1.2em;
+  background-color: rgb(66, 66, 66);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  transition: background 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+  gap: 20px;
+}
+
+.directory-link:hover {
+  background-color: #d1b902;
+  color: #0d1117;
+  transform: translateX(10px);
+}
+
+.folder-icon {
+  font-size: 2em;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.folder-name {
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.folder-arrow {
+  font-size: 1.5em;
+  opacity: 0.5;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.directory-link:hover .folder-arrow {
+  opacity: 1;
+  transform: translateX(5px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 900px) {
+  .dirlist-header h1 {
+    font-size: 2em;
+  }
+
+  .dirlist-header p {
+    font-size: 1em;
+  }
+
+  .dirlist-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .directory-link {
+    padding: 18px 25px;
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .dirlist-header h1 {
+    font-size: 1.6em;
+  }
+
+  .dirlist-header p {
+    font-size: 0.95em;
+  }
+
+  .dirlist-box {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .directory-link {
+    padding: 15px 20px;
+    font-size: 1em;
+    gap: 15px;
+  }
+
+  .folder-icon {
+    font-size: 1.5em;
+  }
+
+  .folder-name {
+    font-size: 1em;
+  }
+
+  .folder-arrow {
+    font-size: 1.2em;
+  }
+}
