@@ -1,5 +1,5 @@
 .resources-section {
-  background-color: #0d1117;
+  background-color: #0d111700;
   color: white;
   padding: 60px 20px;
   min-height: calc(100vh - 200px);
@@ -8,7 +8,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .resources-container {
@@ -25,18 +25,18 @@
   padding: 30px 20px;
   margin-bottom: 10px;
   width: 90%;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
 }
 
 .resources-header h1 {
-  font-family: 'Black Ops One', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 2.5em;
   margin-bottom: 10px;
   text-align: center;
 }
 
 .resources-header p {
-  font-family: "Abel", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1.1em;
   color: #ccc;
   text-align: center;
@@ -51,7 +51,7 @@
   width: 80%;
   max-width: 800px;
   padding: 30px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
 }
 
 .directory-item {
@@ -74,7 +74,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
   transition: background 0.3s ease, transform 0.3s ease;
   text-decoration: none;
   gap: 20px;
@@ -82,7 +82,7 @@
 
 .directory-link:hover {
   background-color: #d1b902;
-  color: #0d1117;
+  color: #0d111700;
   transform: translateX(10px);
 }
 
@@ -115,11 +115,11 @@
   border-radius: 20px;
   width: 80%;
   padding: 30px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
 }
 
 .category-title {
-  font-family: 'Black Ops One', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 2em;
   color: #d1b902;
   margin-bottom: 25px;
@@ -154,7 +154,7 @@
 
 .resource-item:hover {
   background-color: #d1b902;
-  color: #0d1117;
+  color: #0d111700;
   transform: translateY(-5px);
 }
 
@@ -173,7 +173,7 @@
 }
 
 .file-name {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 0.95em;
   font-weight: 500;
   line-height: 1.4;
@@ -198,13 +198,13 @@
 }
 
 .resource-item:hover .download-btn {
-  background-color: #0d1117;
+  background-color: #0d111700;
   color: #3193f8;
 }
 
 .download-btn:hover {
   background-color: #79bcff;
-  color: #0d1117;
+  color: #0d111700;
 }
 
 .resource-subcategory {
@@ -216,7 +216,7 @@
 }
 
 .resource-subcategory h3 {
-  font-family: 'Black Ops One', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 1.4em;
   color: #d1b902;
   margin-bottom: 15px;
