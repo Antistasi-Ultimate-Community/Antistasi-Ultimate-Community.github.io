@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en-GB" style="font-size: 16px;">
+
+<head>
+    <script type="text/javascript" src="../../Site.js" defer=""></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px rgb(41, 41, 41);
+            border-radius: 5px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #d1b902;
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #9e8c00;
+        }
+    </style>
+    <title>Resources - Source Files - Antistasi Ultimate</title>
+    <meta name="keywords"
+        content="AntistasiUltimate, Resources, Source Files, Downloads, Arma3, Mod, Arma 3 Antistasi Ultimate">
+    <meta name="description"
+        content="Download source files and design assets for the Antistasi Ultimate Mod for Arma 3.">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="2 days">
+    <meta name="author" content="Maxx">
+    <meta name="theme-color" content="#e8ba00">
+    <meta property="og:title" content="Antistasi Ultimate - Resources - Source Files">
+    <meta property="og:description" content="Download source files and design assets for the Antistasi Ultimate Mod for Arma 3.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="../../images/Yellow.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+
+    <link href="../Resources.css" rel="stylesheet" />
+    <link href="../../Site.css" rel="stylesheet" />
+    <link href="../../images/Yellow.png" rel="icon" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Open+Sans:300,400,600,700,800|Black+Ops+One:400"
+        rel="stylesheet" />
+    <script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "Organization",
+			"name": "Antistasi Ultimate",
+			"logo": "../../images/UACLogoSmall.png",
+			"sameAs": [
+				"https://www.youtube.com/@AntistasiUltimateCommunity",
+				"https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate",
+				"https://discord.gg/antistasiultimate",
+				"https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032"
+			]
+		}
+	</script>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header class="sticky-header">
+        <a href="/" class="logo-link">
+            <img src="../../images/SiteLogo1.png" alt="Logo" class="header-logo" />
+        </a>
+
+        <div class="header-dropdowns">
+            <div class="dropdown">
+                <button class="dropbtn" style="cursor:pointer">
+                    <a class="dropbtn-text" href="/">Home</a>
+                </button>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <span class="dropbtn-text">Information</span>
+                    <span class="dropdown-arrow">▼</span>
+                </button>
+                <div class="dropdown-content">
+                    <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank">Documentation</a>
+                    <a href="/Useful-Information">More Info</a>
+                    <a href="/Resources/">Resources</a>
+                    <a href="/FAQ">FAQ</a>
+                    <a href="/About-Page">About</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">
+                    <span class="dropbtn-text">Links</span>
+                    <span class="dropdown-arrow">▼</span>
+                </button>
+                <div class="dropdown-content">
+                    <a href="https://units.arma3.com/unit/antistasiultimatecommunity" target="_blank">Community</a>
+                    <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank">Github</a>
+                    <a href="https://discord.gg/antistasiultimate" target="_blank">Discord</a>
+                    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032" target="_blank">Steam
+                        Workshop</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Header -->
+    <nav class="mobile-navbar">
+        <a href="/" class="logo-link">
+            <img src="../../images/SiteLogo1.png" alt="Logo" class="header-logo" />
+        </a>
+        <button class="menu-toggle" onclick="toggleMobileMenu(this)">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </nav>
+    <div class="mobile-nav-links" id="mobileNav">
+        <div class="mobile-menu-links">
+            <a href="/" class="mobile-nav-links-home">
+                <h3>Home</h3>
+            </a>
+            <h3>Information</h3>
+            <div class="content-mods-divider-full"></div>
+            <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank">Documentation</a>
+            <a href="/Useful-Information">More Info</a>
+            <a href="/Resources/">Resources</a>
+            <a href="/FAQ">FAQ</a>
+            <a href="/About-Page">About</a>
+            <div style="padding:10px"></div>
+            <h3>Links</h3>
+            <div class="content-mods-divider-full"></div>
+            <a href="https://units.arma3.com/unit/antistasiultimatecommunity" target="_blank">Community</a>
+            <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank">Github</a>
+            <a href="https://discord.gg/antistasiultimate" target="_blank">Discord</a>
+            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032" target="_blank">Steam
+                Workshop</a>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Resources Start -->
+    <section class="resources-section">
+        <div class="resources-header-wrapper">
+            <div class="resources-header">
+                <h1>Source Files</h1>
+                <p>Download editable source files and design templates</p>
+            </div>
+        </div>
+        <div class="resources-back">
+            <a href="/Resources/">Back to Resources</a>
+        </div>
+
+        <div class="resources-container">
+            <div class="resources-category">
+                <h2 class="category-title">Source Files</h2>
+                <div class="resources-grid">
+                    <div class="resource-item">
+                        <div class="file-icon">📄</div>
+                        <span class="file-name">auc.psd</span>
+                        <a href="auc.psd" download class="download-btn">Download</a>
+                    </div>
+                    <div class="resource-item">
+                        <div class="file-icon">📄</div>
+                        <span class="file-name">flag_side_co.xcf</span>
+                        <a href="flag_side_co.xcf" download class="download-btn">Download</a>
+                    </div>
+                    <div class="resource-item">
+                        <div class="file-icon">📄</div>
+                        <span class="file-name">whiteboard_template.xcf</span>
+                        <a href="whiteboard_template.xcf" download class="download-btn">Download</a>
+                    </div>
+
+                    <div class="resource-subcategory">
+                        <h3>Ultimate</h3>
+                        <div class="resources-grid-inner">
+                            <div class="resource-item">
+                                <div class="file-icon">📄</div>
+                                <span class="file-name">template.xcf</span>
+                                <a href="Ultimate/template.xcf" download class="download-btn">Download</a>
+                            </div>
+                            <div class="resource-item">
+                                <div class="file-icon">📄</div>
+                                <span class="file-name">ultimate_512x512.xcf</span>
+                                <a href="Ultimate/ultimate_512x512.xcf" download class="download-btn">Download</a>
+                            </div>
+                            <div class="resource-item">
+                                <div class="file-icon">📄</div>
+                                <span class="file-name">ultimate_logo.xcf</span>
+                                <a href="Ultimate/ultimate_logo.xcf" download class="download-btn">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Resources End -->
+
+    <!-- Footer Start -->
+    <footer class="site-footer">
+        <div class="footer-logo-container">
+            <img src="../../images/Yellow.png" alt="Logo" class="footer-logo">
+        </div>
+        <div class="footer-links">
+            <a href="/About-Page">ABOUT US</a>
+            <a href="https://discord.gg/antistasiultimate" target="_blank">CONTACT US</a>
+            <a href="https://drive.google.com/file/d/1UrDAuN9-9us8Xb-AIFxLrvs6tzv2hbb5/view?usp=sharing"
+                target="_blank">LICENSES</a>
+            <a href="/Resources/">RESOURCES</a>
+        </div>
+        <hr class="footer-divider">
+        <div class="footer-icons">
+            <a href="https://www.youtube.com/@AntistasiUltimateCommunity"><img src="../../images/icons/youtubelogo.png"
+                    alt="YouTube"></a>
+            <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank"><img
+                    src="../../images/icons/githublogo.png" alt="GitHub"></a>
+            <a href="https://discord.gg/antistasiultimate" target="_blank"><img src="../../images/icons/discordlogo.png"
+                    alt="Discord"></a>
+            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032" target="_blank"><img
+                    src="../../images/icons/steamlogo.png" alt="Steam"></a>
+        </div>
+        <p class="footer-copyright">
+            Copyright © 2023 - 2026 Antistasi Ultimate All Rights Reserved
+        </p>
+        <a class="shhh" href="/8x43jq9fsda6hjs32fsa95esad">press me</a>
+    </footer>
+    <!-- Footer End -->
+</body>
+
+</html>

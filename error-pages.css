@@ -5,11 +5,11 @@
 }
 
 body {
-  font-family: 'Black Ops One', sans-serif;
+  font-family: 'Oswald', Arial;
   background-color: #1b1b1b;
   color: #fff;
   height: 100vh;
-  background-image: url("images/Connect.webp");
+  background-image: url("images/rebellion.webp");
   background-size: cover;
   background-position: center;
 }
@@ -27,11 +27,11 @@ body {
 }
 
 .error-container {
-  background-color: #0d111799;
+  background-color: #0d111700;
   padding: 20px;
   border-radius: 20px;
   backdrop-filter: blur(5px);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
   width: fit-content;
   max-width: 95%;
 }
@@ -57,7 +57,7 @@ body {
 .error-button {
   display: inline-block;
   padding: 5px 10px;
-  font-family: "Black Ops One";
+  font-family: "Oswald", Arial;
   background-color: #ffd90000;
   border: solid;
   border-width: 2px;

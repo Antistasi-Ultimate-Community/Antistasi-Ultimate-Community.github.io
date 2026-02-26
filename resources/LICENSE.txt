@@ -1,0 +1,37 @@
+Antistasi Ultimate grants entities permission to use Antistasi Ultimate logos and/or imagery subject to the terms and license(s) set below:
+
+Image Licenses:
+
+	Antistasi Ultimate reserves the right to:
+
+	Give an "entity" or "entities" permission to use Antistasi Ultimate logos and/or imagery;
+	Revoke an "entity" or "entities" permission to use Antistasi Ultimate logos and/or imagery;
+	Amend the license(s) terms as we see fit;
+	Or otherwise do as we (Antistasi Ultimate) deem necessary.
+	
+You may not use the afformentioned "logos and/or imagery" in any commercial way or in any way that goes against the "terms and license(s)" unless explicit approval is given by us (Antistasi Ultimate)
+	
+By downloading anything on the Antistasi Ultimate Source (Antistasi Ultimate Resources), or using any Antistasi Ultimate "logos and/or imagery", you accept that you will abide by the "terms and license(s)" set in this document.
+
+If we (Antistasi Ultimate) were to contact you asking you to remove the afformentioned "logos and/or imagery", you agree that you will take our request seriously and act upon our request with the utmost importance.
+
+If we (Antistasi Ultimate) amend the license(s) terms, you agree that continued use of the "logos and/or imagery" after the posting of amendments (Typically at https://discord.antistasiultimate.com) constitutes acceptance of the amended terms.
+
+\\ --------------------------------------- //
+
+"the Antistasi Ultimate Source" referenced above pertains to this source: https://antistasiultimate.com/Resources/.
+
+"entities" refers to anyone using the "logos and/or imagery", who is not affiliated with us (Antistasi Ultimate)
+
+Examples of times we might revoke an entities permission:
+	Misuse of the "logos and/or imagery";
+	Violation of the license(s) included above;
+	Or anything else we deem necessary.
+	
+Files exempt from the "terms and license(s)":
+	Source/flag_side_co.xcf
+	Source/whiteboard_template.xcf
+	Images/Extensions/ext_black.png
+	Images/Extensions/ext_white.png
+	
+Shall any issues or doubts occur regarding the "terms and license(s)", "logos and/or imagery", or anything else in this document, feel free to contact us at "Admin@AntistasiUltimate.com" to discuss.

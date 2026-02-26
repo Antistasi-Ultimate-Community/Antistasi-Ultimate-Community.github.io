@@ -262,7 +262,7 @@ function toggleFAQ(button) {
             a.classList.add('hide');
             setTimeout(() => {
                 if (a.classList.contains('hide')) a.style.display = 'none';
-            }, 400);
+            }, 0);
         }
     });
 
@@ -299,14 +299,14 @@ function toggleFAQ(button) {
 
         setTimeout(() => {
             answer.style.display = 'none';
-        }, 400);
+        }, 0);
     }
 
     // Reset height to auto after animation
     setTimeout(() => {
         faqBox.style.transition = '';
         faqBox.style.height = 'auto';
-    }, 600);
+    }, 0);
 }
 
 document.querySelectorAll('.team-member-wrapper').forEach(wrapper => {

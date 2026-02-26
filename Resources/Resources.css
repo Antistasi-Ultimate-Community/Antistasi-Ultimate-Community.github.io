@@ -1,0 +1,361 @@
+.resources-section {
+  background-color: #0d111700;
+  color: white;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start;
+  font-family: 'Oswald', Arial;
+}
+
+.resources-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styled blur box behind the header */
+.resources-header-wrapper {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px 20px;
+  margin-bottom: 10px;
+  width: 90%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+}
+
+.resources-back {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 5px 0 20px;
+}
+
+.resources-back a {
+  background-color: #d1b902;
+  color: #0d1117;
+  padding: 8px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95em;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.resources-back a:hover {
+  background-color: #9e8c00;
+  transform: translateY(-2px);
+}
+
+.resources-header h1 {
+  font-family: 'Oswald', Arial;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.resources-header p {
+  font-family: "Oswald", Arial;
+  font-size: 1.1em;
+  color: #ccc;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 0;
+}
+
+.resources-box {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  width: 80%;
+  max-width: 800px;
+  padding: 30px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+}
+
+.directory-item {
+  margin-bottom: 15px;
+}
+
+.directory-item:last-child {
+  margin-bottom: 0;
+}
+
+.directory-link {
+  width: 100%;
+  text-align: left;
+  padding: 20px 30px;
+  font-size: 1.2em;
+  background-color: rgb(66, 66, 66);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: "Oswald", Arial;
+  transition: background 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+  gap: 20px;
+}
+
+.directory-link:hover {
+  background-color: #d1b902;
+  color: #0d111700;
+  transform: translateX(10px);
+}
+
+.folder-icon {
+  font-size: 2em;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.folder-name {
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.folder-arrow {
+  font-size: 1.5em;
+  opacity: 0.5;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.directory-link:hover .folder-arrow {
+  opacity: 1;
+  transform: translateX(5px);
+}
+
+.resources-category {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  width: 80%;
+  padding: 30px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+}
+
+.category-title {
+  font-family: 'Oswald', Arial;
+  font-size: 2em;
+  color: #d1b902;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.resources-grid-inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.resource-item {
+  background-color: rgb(66, 66, 66);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.resource-item:hover {
+  background-color: #d1b902;
+  /* color: #0d111700; */
+  transform: translateY(-5px);
+}
+
+.file-icon {
+  font-size: 2.5em;
+  line-height: 1;
+}
+
+.file-thumbnail {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 8px;
+}
+
+.file-name {
+  font-family: 'Oswald', Arial;
+  font-size: 0.95em;
+  font-weight: 500;
+  line-height: 1.4;
+  word-break: break-word;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-btn {
+  background-color: #3193f8;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.resource-item:hover .download-btn {
+  background-color: #0d111700;
+  color: #3193f8;
+}
+
+.download-btn:hover {
+  background-color: #79bcff;
+  color: #0d111700;
+}
+
+.resource-subcategory {
+  grid-column: 1 / -1;
+  text-align: left;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.resource-subcategory h3 {
+  font-family: 'Oswald', Arial;
+  font-size: 1.4em;
+  color: #d1b902;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Mobile Responsive */
+@media (max-width: 900px) {
+  .resources-header h1 {
+    font-size: 2em;
+  }
+
+  .resources-header p {
+    font-size: 1em;
+  }
+
+  .resources-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .resources-category {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .category-title {
+    font-size: 1.6em;
+  }
+
+  .resources-grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+  }
+
+  .resources-grid-inner {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+  }
+
+  .file-thumbnail {
+    width: 150px;
+    height: 150px;
+  }
+
+  .directory-link {
+    padding: 18px 25px;
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .resources-header h1 {
+    font-size: 1.6em;
+  }
+
+  .resources-header p {
+    font-size: 0.95em;
+  }
+
+  .resources-box {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .resources-category {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .category-title {
+    font-size: 1.3em;
+  }
+
+  .resources-grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 12px;
+  }
+
+  .resources-grid-inner {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+  }
+
+  .file-icon {
+    font-size: 2em;
+  }
+
+  .file-thumbnail {
+    width: 120px;
+    height: 120px;
+  }
+
+  .file-name {
+    font-size: 0.85em;
+  }
+
+  .download-btn {
+    padding: 6px 12px;
+    font-size: 0.8em;
+  }
+
+  .directory-link {
+    padding: 15px 20px;
+    font-size: 1em;
+    gap: 15px;
+  }
+
+  .folder-icon {
+    font-size: 1.5em;
+  }
+
+  .folder-name {
+    font-size: 1em;
+  }
+
+  .folder-arrow {
+    font-size: 1.2em;
+  }
+}
