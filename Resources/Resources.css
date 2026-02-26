@@ -7,7 +7,7 @@
   align-items: center;
   text-align: center;
   justify-content: flex-start;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', Arial;
 }
 
 .resources-container {
@@ -51,14 +51,14 @@
 }
 
 .resources-header h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', Arial;
   font-size: 2.5em;
   margin-bottom: 10px;
   text-align: center;
 }
 
 .resources-header p {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", Arial;
   font-size: 1.1em;
   color: #ccc;
   text-align: center;
@@ -96,7 +96,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", Arial;
   transition: background 0.3s ease, transform 0.3s ease;
   text-decoration: none;
   gap: 20px;
@@ -141,7 +141,7 @@
 }
 
 .category-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', Arial;
   font-size: 2em;
   color: #d1b902;
   margin-bottom: 25px;
@@ -195,7 +195,7 @@
 }
 
 .file-name {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', Arial;
   font-size: 0.95em;
   font-weight: 500;
   line-height: 1.4;
@@ -238,7 +238,7 @@
 }
 
 .resource-subcategory h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', Arial;
   font-size: 1.4em;
   color: #d1b902;
   margin-bottom: 15px;
