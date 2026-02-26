@@ -176,7 +176,7 @@
 
 .resource-item:hover {
   background-color: #d1b902;
-  color: #0d111700;
+  /* color: #0d111700; */
   transform: translateY(-5px);
 }
 
