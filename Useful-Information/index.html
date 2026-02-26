@@ -59,10 +59,9 @@
 			"name": "Antistasi Ultimate",
 			"logo": "../images/UACLogoSmall.png",
 			"sameAs": [
-				"https://www.youtube.com/@AntistasiUltimateCommunity",
-				"https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate",
-				"https://discord.gg/antistasiultimate",
-				"https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032"
+				"https://github.com/Antistasi-Ultimate-Community/A3-Antistasi-Ultimate",
+				"https://discord.antistasiultimate.com",
+				"https://play.antistasiultimate.com"
 			]
 		}
 	</script>
@@ -90,10 +89,10 @@
                     <span class="dropdown-arrow">▼</span>
                 </button>
                 <div class="dropdown-content">
-                    <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank">Documentation</a>
-                    <a href="/Useful-Information">More Info</a>
-                    <a href="/FAQ">FAQ</a>
-                    <a href="/About-Page">About</a>
+                    <a href="https://github.com/Antistasi-Ultimate-Community/A3-Antistasi-Ultimate" target="_blank">Documentation</a>
+                    <a href="/Useful-Information/">More Info</a>
+                    <a href="/FAQ/">FAQ</a>
+                    <a href="/About-Page/">About</a>
                 </div>
             </div>
 
@@ -104,10 +103,11 @@
                 </button>
                 <div class="dropdown-content">
                     <a href="https://units.arma3.com/unit/antistasiultimatecommunity" target="_blank">Community</a>
-                    <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank">Github</a>
-                    <a href="https://discord.gg/antistasiultimate" target="_blank">Discord</a>
-                    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032" target="_blank">Steam
+                    <a href="https://github.com/Antistasi-Ultimate-Community/A3-Antistasi-Ultimate" target="_blank">Github</a>
+                    <a href="https://discord.antistasiultimate.com" target="_blank">Discord</a>
+                    <a href="https://play.antistasiultimate.com" target="_blank">Steam
                         Workshop</a>
+                    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3346427969" target="_blank">HATG</a>
                 </div>
             </div>
         </div>
@@ -131,18 +131,19 @@
             </a>
             <h3>Information</h3>
             <div class="content-mods-divider-full"></div>
-            <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank">Documentation</a>
-            <a href="/Useful-Information">More Info</a>
-            <a href="/FAQ">FAQ</a>
-            <a href="/About-Page">About</a>
+            <a href="https://github.com/Antistasi-Ultimate-Community/A3-Antistasi-Ultimate" target="_blank">Documentation</a>
+            <a href="/Useful-Information/">More Info</a>
+            <a href="/FAQ/">FAQ</a>
+            <a href="/About-Page/">About</a>
             <div style="padding:10px"></div>
             <h3>Links</h3>
             <div class="content-mods-divider-full"></div>
             <a href="https://units.arma3.com/unit/antistasiultimatecommunity" target="_blank">Community</a>
-            <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank">Github</a>
-            <a href="https://discord.gg/antistasiultimate" target="_blank">Discord</a>
-            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032" target="_blank">Steam
+            <a href="https://github.com/Antistasi-Ultimate-Community/A3-Antistasi-Ultimate" target="_blank">Github</a>
+            <a href="https://discord.antistasiultimate.com" target="_blank">Discord</a>
+            <a href="https://play.antistasiultimate.com" target="_blank">Steam
                 Workshop</a>
+            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3346427969" target="_blank">HATG</a>
         </div>
     </div>
     <!-- Header End -->
@@ -152,13 +153,13 @@
         <div class="info-code-section">
             <h3 class="useful-info-header">Utility Functions</h3>
             <div class="info-block">
-                <h4 class="info-block-title">Spawn enemy support at players position</h4>
+                <h4 class="info-block-title">Spawn enemy support at players position (Local, Scheduled)</h4>
                 <pre class="info-code-block"><code class="language-sqf">private _type = "CAS"; // CASDIVE, QRF, Etc
 private _side = Occupants; // Occupants/Invaders
 ["CAS", Occupants, "attack", 500, player, getPosATL player, 0.8, 0] call A3A_fnc_createSupport;</code></pre>
             </div>
             <div class="info-block">
-                <h4 class="info-block-title">Spawn spec ops HQ attack mission (Server Exec)</h4>
+                <h4 class="info-block-title">Spawn spec ops HQ attack mission (Server, Unscheduled)</h4>
                 <pre class="info-code-block"><code class="language-sqf">private _side = Occupants; // Occupants, Invaders
     
 private _marker = ["CSAT_carrier", "NATO_carrier"] select {_side isEqualTo Occupants};
@@ -166,13 +167,22 @@ private _marker = ["CSAT_carrier", "NATO_carrier"] select {_side isEqualTo Occup
 [_side, _marker, 0] spawn A3A_fnc_attackHQ;</code></pre>
             </div>
             <div class="info-block">
-                <h4 class="info-block-title">Spawn Trader Mission</h4>
+                <h4 class="info-block-title">Spawn Loot Crate (Local, Unscheduled)</h4>
+                <pre class="info-code-block"><code class="language-sqf">private _crate = "IG_supplyCrate_F" createVehicle [0,0,0];
+
+_crate setPos getPosATL player;
+
+_crate remoteExec ["A3A_fnc_fillLootCrate", 2];
+[_crate, nil, true] call A3A_Logistics_fnc_addLoadAction;</code></pre>
+            </div>
+            <div class="info-block">
+                <h4 class="info-block-title">Spawn Trader Mission (Local | Server, Unscheduled)</h4>
                 <p class="info-block-description">Spawns a trader mission on a new save</p>
                 <pre
                     class="info-code-block"><code class="language-sqf">[] remoteExec ["SCRT_fnc_trader_prepareTraderQuest", 2];</code></pre>
             </div>
             <div class="info-block">
-                <h4 class="info-block-title">Export Crate To Arms Dealer</h4>
+                <h4 class="info-block-title">Export Crate To Arms Dealer (Local, Unscheduled)</h4>
                 <p class="info-block-description">Grabs all the weapons out of a crate, grabs mags for them, then puts
                     it into a formatted config array for the arms dealer<br>(returns into your clipboard)</p>
                 <pre
@@ -185,14 +195,14 @@ this addAction ["copy", {[(_this select 0), "RHS", "Rifles"] call A3U_fnc_export
 this addAction ["copy", {[(_this select 0), "RHS", "Sniper Rifles"] call A3U_fnc_exportCrate}];</code></pre>
             </div>
             <div class="info-block">
-                <h4 class="info-block-title">Export Pylon Loadout For Config</h4>
+                <h4 class="info-block-title">Export Pylon Loadout For Config (Local, Unscheduled)</h4>
                 <p class="info-block-description">Grabs the current pylon loadout of an air vehicle and exports it for
                     config<br>(returns into your clipboard)</p>
                 <pre
                     class="info-code-block"><code class="language-sqf">[_target] call A3U_fnc_exportPylons;</code></pre>
             </div>
             <div class="info-block">
-                <h4 class="info-block-title">Draw cargo seats of vehicles, with index</h4>
+                <h4 class="info-block-title">Draw cargo seats of vehicles, with index (Local, Unscheduled)</h4>
                 <p class="info-block-description">(doesn't always work with modded vehicles, due to weird setups)</p>
                 <pre
                     class="info-code-block"><code class="language-sqf">[cursorObject] call A3U_fnc_logisticsGrabSeats;</code></pre>
@@ -211,20 +221,20 @@ this addAction ["copy", {[(_this select 0), "RHS", "Sniper Rifles"] call A3U_fnc
                     class="info-code-block"><code class="language-sqf">[["cfgPatchesClass1", "cfgPatchesClass2"]] call A3U_fnc_hasAddon;</code></pre>
             </div>
             <div class="info-block">
-                <h4 class="info-block-title">Weight Test</h4>
+                <h4 class="info-block-title">Weight Test (Local, Scheduled)</h4>
                 <p class="info-block-description">Logs occurence of each value over 10000 iterations</p>
                 <pre
                     class="info-code-block"><code class="language-sqf">[_values, _weights] call A3U_fnc_weightTest;</code></pre>
             </div>
             <div class="info-block">
-                <h4 class="info-block-title">Change faction money/hr</h4>
+                <h4 class="info-block-title">Change Faction Money/HR (Local | Server, Unscheduled)</h4>
                 <p class="info-block-description">Changes faction money and hr<br>(takes effect immediately, UI will not
                     update until next tick)</p>
                 <pre
                     class="info-code-block"><code class="language-sqf">[0,0] remoteExec ["A3A_fnc_resourcesFIA",2]; //1 param - hq, 2 param - money</code></pre>
             </div>
             <div class="info-block">
-                <h4 class="info-block-title">Debug Rivals</h4>
+                <h4 class="info-block-title">Debug Rivals (Local, Unscheduled)</h4>
                 <p class="info-block-description">Sets up the rivals, and reveals their location on the commander menu
                 </p>
                 <pre class="info-code-block"><code class="language-sqf">[] spawn {
@@ -241,12 +251,12 @@ this addAction ["copy", {[(_this select 0), "RHS", "Sniper Rifles"] call A3U_fnc
                 <h4 class="info-block-title">Town Generator</h4>
                 <p class="info-block-description">
                 <p class="info-block-description"><a class="info-link"
-                        href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate/tree/unstable/Tools/TownGenerator">Town
+                        href="https://github.com/Antistasi-Ultimate-Community/A3-Antistasi-Ultimate/tree/unstable/Tools/TownGenerator">Town
                         Generator</a> is a bundle of 2 python scripts, input.py and sort.py<br><br>sort.py does the
                     heavy lifting and doesn't necessarily need to be used
                     directly (input.py imports the sort.py function). input.py can be ran and will prompt you to put in
                     an array provided by <a class="info-link"
-                        href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate/blob/unstable/A3A/addons/ultimate/functions/Utility/fn_exportTowns.sqf">A3U_fnc_exportTowns</a>.<br><br>After
+                        href="https://github.com/Antistasi-Ultimate-Community/A3-Antistasi-Ultimate/blob/unstable/A3A/addons/ultimate/functions/Utility/fn_exportTowns.sqf">A3U_fnc_exportTowns</a>.<br><br>After
                     selecting an export type, it will then provide you with a list of towns/population that you can
                     paste into a mapInfo.hpp file.</p>
             </div>
@@ -303,14 +313,14 @@ this addAction ["copy", {[(_this select 0), "RHS", "Sniper Rifles"] call A3U_fnc
                     <li>Arma 3</li>
                     <li>Arma 3 Tools</li>
                 </ul>
-                Arma 3 and Arma 3 Tools need to be run once from steam.</p>
+                Arma 3 and Arma 3 Tools need to be ran at least once from Steam.</p>
                 <div class="info-divider-full"></div>
                 <h4 class="info-block-title">Useful Things</h4>
                 <p class="info-block-description">
                 <ul class="info-block-description">
                     <li><a class="info-link" href="https://github.com/Westalgie/A3UExtender">Full Documentation</a></li>
                     <li><a class="info-link"
-                            href="https://steamcommunity.com/sharedfiles/filedetails/?id=2369477168">Advanced Developer
+                            href="https://steamcommunity.com/sharedfiles/filedetails/?id=3499977893">Advanced Developer
                             Tools</a></li>
                     <li><a class="info-link" href="https://paa.gruppe-adler.de/">https://paa.gruppe-adler.de/</a> (Image
                         > PAA. If converting multiple files, use ImageToPAA included in Arma 3 Tools)</li>
@@ -320,10 +330,10 @@ this addAction ["copy", {[(_this select 0), "RHS", "Sniper Rifles"] call A3U_fnc
                     <li><a class="info-link" href="https://code.visualstudio.com/download">VSCode</a></li>
                     <li><a class="info-link"
                             href="https://marketplace.visualstudio.com/items?itemName=ole1986.arma-dev">Arma Dev</a>
-                        (Extention for vscode)</li>
+                        (Extension for vscode)</li>
                     <li><a class="info-link"
                             href="https://marketplace.visualstudio.com/items?itemName=bux578.vscode-openlastrpt">Arma 3
-                            - Open Last RPT</a> (Extention for vscode)</li>
+                            - Open Last RPT</a> (Extension for vscode)</li>
                 </ul>
                 </p>
             </div>
@@ -341,28 +351,26 @@ this addAction ["copy", {[(_this select 0), "RHS", "Sniper Rifles"] call A3U_fnc
             <img src="../images/Yellow.png" alt="Logo" class="footer-logo">
         </div>
         <div class="footer-links">
-            <a href="/About-Page">ABOUT US</a>
-            <a href="https://discord.gg/antistasiultimate" target="_blank">CONTACT US</a>
-            <a href="https://drive.google.com/file/d/1UrDAuN9-9us8Xb-AIFxLrvs6tzw2hbb5/view?usp=sharing"
+            <a href="/About-Page/">ABOUT US</a>
+            <a href="https://discord.antistasiultimate.com" target="_blank">CONTACT US</a>
+            <a href="/resources/LICENSE.txt"
                 target="_blank">LICENSES</a>
             <a href="https://drive.google.com/drive/folders/1R3Ylk2RGkukywdA9IhdoURtnonqs7W8Y?usp=sharing"
                 target="_blank">RESOURCES</a>
         </div>
         <hr class="footer-divider">
         <div class="footer-icons">
-            <a href="https://www.youtube.com/@AntistasiUltimateCommunity"><img src="../images/icons/youtubelogo.png"
-                    alt="YouTube"></a>
-            <a href="https://github.com/SilenceIsFatto/A3-Antistasi-Ultimate" target="_blank"><img
+            <a href="https://github.com/Antistasi-Ultimate-Community/A3-Antistasi-Ultimate" target="_blank"><img
                     src="../images/icons/githublogo.png" alt="GitHub"></a>
-            <a href="https://discord.gg/antistasiultimate" target="_blank"><img src="../images/icons/discordlogo.png"
+            <a href="https://discord.antistasiultimate.com" target="_blank"><img src="../images/icons/discordlogo.png"
                     alt="Discord"></a>
-            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3020755032" target="_blank"><img
+            <a href="https://play.antistasiultimate.com" target="_blank"><img
                     src="../images/icons/steamlogo.png" alt="Steam"></a>
         </div>
         <p class="footer-copyright">
-            Copyright © 2023 - 2025 Antistasi Ultimate All Rights Reserved
+            Copyright © 2023 - 2026 Antistasi Ultimate All Rights Reserved
         </p>
-        <a class="shhh" href="/8x43jq9fsda6hjs32fsa95esad">press me</a>
+        <a class="shhh" href="/8x43jq9fsda6hjs32fsa95esad/">press me</a>
     </footer>
     <!-- Footer End -->
 </body>

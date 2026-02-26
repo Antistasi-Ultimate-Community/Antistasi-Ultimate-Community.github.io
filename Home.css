@@ -14,7 +14,7 @@
 
 .divider-text {
   font-size: clamp(1.5rem, 6vw, 4rem);
-  font-family: "Black Ops One";
+  font-family: "Oswald";
   color: #ffffff;
 }
 
@@ -25,14 +25,16 @@
   width: 100%;
   height: fit-content;
   padding: 1% 0 1% 0;
-  background-image: url("../images/StealthNight.webp");
-  background-size: auto;
+  background-image: url("../images/rebellion.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   text-align: center;
-  font-family: 'Black Ops One';
+  font-family: 'Abel', sans-serif;
 }
 
 .server-content {
@@ -59,8 +61,8 @@
   position: absolute;
   width: 150px;
   height: 150px;
-  background-color: rgba(255, 255, 255, 0.1);
-  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
@@ -70,7 +72,7 @@
   position: absolute;
   width: 100%;
   height: 100px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 0;
   top: 50%;
   left: 50%;
@@ -91,12 +93,21 @@
   flex-direction: column;
   gap: 10px;
   z-index: 2;
-  align-items: center;
+  align-items: top;
+}
+
+.server-buttons-small {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  z-index: 2;
+  align-items: top;
+  justify-content: center
 }
 
 .server-text {
   color: white;
-  font-size: 18px;
+  font-size: 30px;
   font-family: "Abel", sans-serif;
 }
 
@@ -105,7 +116,7 @@
   color: white;
   border: 2px solid white;
   padding: 3px 3px;
-  font-size: 16px;
+  font-size: 24px;
   text-decoration: none;
   border-radius: 20px;
   transition: background 0.3s, transform 0.2s;
@@ -117,14 +128,20 @@
 
 .server-btn--small {
   padding: 3px 3px;
-  font-size: 12px;
-  min-width: 100px;
+  font-size: 16px;
+  min-width: 150px;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .server-btn:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  color: #1c1c1c;
+  background-color: #ffd200;
+  border-color: #00000000;
   transform: scale(1.05);
-  color: #ffd700;
 }
 
 /* Connect Page End */
@@ -148,7 +165,9 @@
 .slider-track {
   display: flex;
   height: fit-content;
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0s ease-in-out;
+  perspective: 1000px;
+  will-change: transition, transform;
 }
 
 .slide {
@@ -165,7 +184,7 @@
 
 .slide-inner {
   opacity: 0;
-  transition: opacity 0.8s ease;
+  transition: opacity 0.3s ease;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -174,6 +193,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .slide-inner {
+    background-position: left; /* Moves the image to the left on mobile */
+  }
 }
 
 .slide.active .slide-inner {
@@ -198,7 +223,7 @@
   top: -5px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(5px);
   border-radius: 20px;
   height: 20px;
@@ -213,7 +238,7 @@
   height: 10px;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.6);
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
   width: 10px;
   cursor: pointer;
 }
@@ -232,19 +257,22 @@
 
 .slide-text-background {
   position: absolute;
-  top: -100%;
-  max-width: 90%;
-  width: fit-content;
-  background-color: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(5px);
+  transform: translateY(-100%) translateZ(0);
+  width: 800px;
+  background-color: rgba(0, 0, 0, 0.6);
+  perspective: 1000px;
+  backface-visibility: hidden;
   border-radius: 0 0 10px 10px;
   padding: 10px 20px;
-  transition: top 1.2s ease-out;
+  transition: transform 1.5s cubic-bezier(0.6, 0, 0.3, 1); 
+  will-change: transform;
   z-index: 1;
-  border-color: #1c1c1c;
-  border-left: solid;
-  border-right: solid;
-  border-bottom: solid;
+  border: 2px solid #1c1c1c;
+  border-top: none;
+}
+
+.slide.active .slide-text-background {
+  transform: translateY(0);
 }
 
 .slide-text {
@@ -287,14 +315,14 @@
   border: none;
   cursor: pointer;
   z-index: 10;
-  transition: color 0.6s ease, background-color 0.9s ease;
+  transition: color 0.6s ease, background-color 0.4s ease;
 }
 
 .slider-arrow:hover {
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
   color: #ffd700;
-  transition: color 0.6s ease, background-color 0.9s ease;
+  transition: color 0.6s ease, background-color 0.4s ease;
 }
 
 .slider-arrow.left {
@@ -322,7 +350,7 @@
 
 .card-section {
   width: 100%;
-  background-size: contain;
+  background-size: 100% auto; 
   background-image: url('../images/mapcard-page-bg.webp');
   display: flex;
   justify-content: center;
@@ -331,6 +359,19 @@
   padding: 40px 20px;
   gap: 20px;
   box-sizing: border-box;
+}
+
+.mod-list-section {
+  width: 100%;
+  background-size: 100% auto; 
+  background-image: url('../images/mapcard-page-bg.webp');
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  background-color: #0d111700;
+  overflow: hidden;
 }
 
 .card-grid {
@@ -419,7 +460,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Black Ops One';
+  font-family: 'Abel';
   text-align: center;
   box-sizing: border-box;
   width: 96%;
@@ -443,7 +484,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-family: 'Black Ops One';
+  font-family: "Abel", sans-serif;
 }
 
 .card-middle {
@@ -556,7 +597,7 @@
 }
 
 .card-button {
-  font-family: 'Black Ops One';
+  font-family: "Abel", sans-serif;
   white-space: nowrap;
   border-radius: 25px;
   width: 90%;
@@ -573,7 +614,7 @@
   border: solid;
   border-width: 2px;
   color: #fff;
-  transition: background-color 0.9s ease, border-color 0.9s ease, color 0.9s ease;
+  transition: background-color 0.4s ease, border-color 0.4s ease, color 0.4s ease;
 }
 
 .card-button:hover {
@@ -603,7 +644,7 @@
 
 /* Supported Mods Start */
 .section-bg {
-  background-color: #292e33;
+  background-color: #0d111700;
   padding-bottom: 30px;
   overflow: hidden;
 }
@@ -647,7 +688,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #222;
+  background-color: #292e33;
   width: 100%;
   overflow-x: auto;
   z-index: 5;
@@ -693,7 +734,7 @@
 }
 
 .mods-tabcontent.active {
-  background-color: #1c1c1c5c;
+  background-color: #1f1f1f; /* 1 */
   color: white;
   display: block;
   animation: slideInFromTop 1.5s ease-out;
@@ -701,6 +742,7 @@
 
 .mods-content {
   padding-bottom: 20px;
+  
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -708,12 +750,12 @@
 }
 
 .content-mods-header {
-  font-family: "Black Ops One";
+  font-family: "Oswald";
   font-size: clamp(1rem, 2vw, 6rem);
 }
 
 h1.content-mods-header {
-  font-family: "Black Ops One";
+  font-family: "Oswald";
   font-size: clamp(1rem, 2vw, 6rem);
   text-align: left;
   width: 90%;
@@ -756,14 +798,14 @@ ul.mods-2 {
 .content-mods-button {
   display: inline-block;
   padding: 5px 10px;
-  font-family: "Black Ops One";
+  font-family: "Abel", sans-serif;
   background-color: #ffd90000;
   border: solid;
   border-width: 2px;
   color: #fff;
   text-decoration: none;
   border-radius: 25px;
-  transition: background-color 0.9s ease, border-color 0.9s ease, color 0.9s ease;
+  transition: background-color 0.4s ease, border-color 0.4s ease, color 0.4s ease;
   margin-bottom: 30px;
 }
 
@@ -802,12 +844,32 @@ ul.mods-2 {
   justify-content: center;
   text-align: center;
   position: relative;
+  /* border-top: 5px solid #555; */
+  border-bottom: 5px solid #555;
+  padding: 40px 8px 40px 8px;
+  margin: 10px 0 10px 0;
+}
+
+.hatg-section {
+  width: 100%;
+  height: auto;
+  background-image: url(../images/wm.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  border-top: 5px solid #555;
+  /* border-bottom: 5px solid #555; */
   padding: 40px 8px 40px 8px;
   margin: 10px 0 10px 0;
 }
 
 .donation-content {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(2px);
   padding: 10px 1vw;
   border-radius: 20px;
@@ -852,7 +914,9 @@ ul.mods-2 {
 }
 
 .donate-button:hover {
-  color: #ffd700;
+  color: #1c1c1c;
+  background-color: #ffd200;
+  border-color: #00000000;
 }
 
 /* Donation End */
