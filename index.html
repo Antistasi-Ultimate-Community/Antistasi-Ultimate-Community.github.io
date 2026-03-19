@@ -272,6 +272,19 @@
 	</section>
 	<section class="card-section">
 		<a href="#mods-section" class="card-button no-flip">↓ Go To Bottom ↓</a>
+		<div class="map-sort-controls" aria-label="Sort supported maps">
+			<label class="map-sort-label" for="map-sort-by">Sort by:</label>
+			<select id="map-sort-by" class="map-sort-select no-flip">
+				<option value="name">Name</option>
+				<option value="zones">Total zones</option>
+				<option value="size">Map size</option>
+			</select>
+			<label class="map-sort-label" for="map-sort-direction">Direction:</label>
+			<select id="map-sort-direction" class="map-sort-select no-flip">
+				<option value="asc">Ascending</option>
+				<option value="desc">Descending</option>
+			</select>
+		</div>
 		<div id="card-grid" class="card-grid">
 			<div class="card-container">
 				<div class="card-base" onclick="this.classList.toggle('flipped')">
