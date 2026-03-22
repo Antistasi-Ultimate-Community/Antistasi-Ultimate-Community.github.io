@@ -361,8 +361,10 @@
   background-size: 100% auto; 
   background-image: url('../images/mapcard-page-bg.webp');
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  text-align: center;
   flex-wrap: wrap;
   padding: 40px 20px;
   gap: 20px;
@@ -392,6 +394,42 @@
   margin: 0 auto;
 }
 
+.map-sort-controls {
+  width: min(100%, 500px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background-color: rgba(12, 15, 19, 0.55);
+  backdrop-filter: blur(5px);
+}
+
+.map-sort-label {
+  color: #ffffff;
+  font-family: "Abel", Arial;
+  font-size: clamp(0.65rem, 0.95vw, 1rem);
+}
+
+.map-sort-select {
+  min-width: 150px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  font-family: "Abel", Arial;
+  font-size: clamp(0.65rem, 0.95vw, 1rem);
+  padding: 6px 10px;
+}
+
+.map-sort-select:focus {
+  outline: 2px solid #ffd200;
+  outline-offset: 1px;
+}
+
 .card-container {
   background-color: transparent;
   width: 210px;
@@ -407,6 +445,20 @@
   .card-container {
     width: 30vw;
     height: calc(30vw * 1.43);
+  }
+  .map-sort-controls {
+    gap: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .map-sort-select {
+    min-width: 120px;
   }
   .slider-dots{
     bottom: 2%;

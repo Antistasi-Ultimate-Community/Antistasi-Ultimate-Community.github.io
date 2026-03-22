@@ -89,6 +89,88 @@ function copyToClipboard(element) {
     }
 }
 
+function getMapName(card) {
+    const nameElement = card.querySelector('.card-front .card-top .card-text');
+    return nameElement ? nameElement.textContent.trim() : '';
+}
+
+function getMapZoneAmount(card) {
+    const stats = card.querySelectorAll('.card-front .card-middle .card-middle-text');
+    for (const stat of stats) {
+        const text = stat.textContent || '';
+        if (text.includes('Zone Amount')) {
+            const match = text.match(/(\d+)/);
+            return match ? parseInt(match[1], 10) : 0;
+        }
+    }
+    return 0;
+}
+
+function getMapSizeArea(card) {
+    const stats = card.querySelectorAll('.card-front .card-middle .card-middle-text');
+    for (const stat of stats) {
+        const text = stat.textContent || '';
+        if (text.includes('Map Size')) {
+            const match = text.match(/(\d+(?:\.\d+)?)\s*x\s*(\d+(?:\.\d+)?)/i);
+            if (!match) {
+                return 0;
+            }
+
+            const width = parseFloat(match[1]);
+            const height = parseFloat(match[2]);
+            return Number.isFinite(width) && Number.isFinite(height) ? width * height : 0;
+        }
+    }
+    return 0;
+}
+
+function initMapSorting() {
+    const cardGrid = document.getElementById('card-grid');
+    const sortBySelect = document.getElementById('map-sort-by');
+    const sortDirectionSelect = document.getElementById('map-sort-direction');
+
+    if (!cardGrid || !sortBySelect || !sortDirectionSelect) {
+        return;
+    }
+
+    function applyMapSorting() {
+        const sortBy = sortBySelect.value;
+        const direction = sortDirectionSelect.value === 'desc' ? -1 : 1;
+        const cards = Array.from(cardGrid.querySelectorAll('.card-container'));
+
+        cards.sort((a, b) => {
+            if (sortBy === 'zones') {
+                const zoneDifference = getMapZoneAmount(a) - getMapZoneAmount(b);
+                if (zoneDifference !== 0) {
+                    return zoneDifference * direction;
+                }
+                return getMapName(a).localeCompare(getMapName(b), undefined, { sensitivity: 'base' }) * direction;
+            }
+
+            if (sortBy === 'size') {
+                const sizeDifference = getMapSizeArea(a) - getMapSizeArea(b);
+                if (sizeDifference !== 0) {
+                    return sizeDifference * direction;
+                }
+                return getMapName(a).localeCompare(getMapName(b), undefined, { sensitivity: 'base' }) * direction;
+            }
+
+            const nameDifference = getMapName(a).localeCompare(getMapName(b), undefined, { sensitivity: 'base' });
+            if (nameDifference !== 0) {
+                return nameDifference * direction;
+            }
+            return (getMapZoneAmount(a) - getMapZoneAmount(b)) * direction;
+        });
+
+        cards.forEach(card => cardGrid.appendChild(card));
+    }
+
+    sortBySelect.addEventListener('change', applyMapSorting);
+    sortDirectionSelect.addEventListener('change', applyMapSorting);
+}
+
+initMapSorting();
+
 
 let currentIndex = 0;
 const slides = document.querySelectorAll('.slide');
