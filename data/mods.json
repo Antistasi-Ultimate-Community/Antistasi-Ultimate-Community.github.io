@@ -1,0 +1,493 @@
+{
+  "general": [
+    {
+      "name": "Hide Among The Grass - HATG",
+      "description": "A complete, performance-focused set of stealth mechanics.<br>It adds a lot of new opportunities for sneaking around.",
+      "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3346427969",
+      "downloadLabel": "Download"
+    },
+    {
+      "name": "ACE",
+      "description": "A complete overhaul of the game. It's impossible to explain.",
+      "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=463939057",
+      "downloadLabel": "Download"
+    },
+    {
+      "name": "KAT Advanced Medical",
+      "description": "A complete overhaul of ACE medical. It's also impossible to explain.",
+      "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2020940806",
+      "downloadLabel": "Download"
+    },
+    {
+      "name": "Task Force Arrowhead Radio (TFAR)",
+      "description": "Task Force Arrowhead Radio provides a way to dramatically increase gameplay realism and atmosphere by seamless integration with TeamSpeak.",
+      "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=620019431",
+      "downloadLabel": "Download"
+    },
+    {
+      "name": "Zeus Enhanced",
+      "description": "Zeus Enhanced, also known as ZEN, is an Arma 3 mod aimed at improving and expanding the functionality of the Zeus real-time editor.",
+      "download": "https://steamcommunity.com/workshop/filedetails/?id=1779063631",
+      "downloadLabel": "Download"
+    },
+    {
+      "name": "CUP Suite",
+      "description": "CUP, also known as Community Upgrade Project, is an Arma 3 set of mods aimed at bringing<br>back content from Arma 2 and Arma: Cold War Assault. It is needed quite often as a base for other mods we list here.",
+      "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=583575232",
+      "downloadLabel": "Download"
+    },
+    {
+      "name": "RHS Suite",
+      "description": "RHS is an Arma 3 set of mods aimed at bringing realistic factions, weapons, and vehicles to the game.<br>It is needed quite often as a base for other mods we list here.",
+      "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=843770737",
+      "downloadLabel": "Download"
+    },
+    {
+      "type": "notice",
+      "name": "Balancing Notice:",
+      "bullets": [
+        "Mods that have RHS balancing will play well with each other. RHS typically doesn't play well with other balancing methods. Take this into account when choosing factions.",
+        "Mods that use Custom balancing are a wildcard. They may work well with other methods, or they may not. Some may require ACE compats if using ACE, some may not.",
+        "Mods that use Vanilla balancing will play well with each other. This is why we mostly use CUP to supplement factions that are also balanced with Vanilla."
+      ]
+    }
+  ],
+  "modern": [
+    {
+      "name": "RHS",
+      "factions": "Russian Federation, CDF, US Army, USMC.",
+      "balancing": "RHS",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019567905" }
+      ]
+    },
+    {
+      "name": "RHS Green Sea Battalion",
+      "factions": "GSB, SZAVB.",
+      "balancing": "RHS",
+      "links": [
+        {
+          "parts": [
+            { "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019567905", "downloadLabel": "RHS Base" },
+            { "text": " and " },
+            { "download": "https://steamcommunity.com/workshop/filedetails/?id=2899715306", "downloadLabel": "Green Sea Battalion Gear 2022" }
+          ]
+        },
+        { "downloadLabel": "Optional Additions", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2872102180" }
+      ]
+    },
+    {
+      "name": "3CBBAF",
+      "factions": "Britain.",
+      "balancing": "RHS",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019552209" }
+      ]
+    },
+    {
+      "name": "3CBF",
+      "factions": "AAF, Russian Federation, ARD, CDF, HIDF, LDF, TKA, US Army, USMC.",
+      "balancing": "RHS",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019553097" }
+      ]
+    },
+    {
+      "name": "Project RACS",
+      "factions": "RACS, SLA.",
+      "balancing": "RHS",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019567083" }
+      ]
+    },
+    {
+      "name": "Aegis",
+      "factions": "AAF, AFRF, AUKUS, CSAT, NATO, CHDKZ, ION.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3029745748" }
+      ]
+    },
+    {
+      "name": "BWMod (Germany)",
+      "factions": "Germany.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "BWMod/Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019560391" },
+        { "downloadLabel": "BWMod/RHS", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019561262" },
+        { "downloadLabel": "BWMod/CUP", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019562271" }
+      ]
+    },
+    {
+      "name": "CUP",
+      "factions": "Czech Republic, Russian Federation, Britain, Germany, CDF, HIL, ION PMC, RACS, TKA, US Army, USMC.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019562847" }
+      ]
+    },
+    {
+      "name": "Estraria",
+      "factions": "Federal Republic of Estraria.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3092603536" }
+      ]
+    },
+    {
+      "name": "FFAA",
+      "factions": "Spain.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019563232" }
+      ]
+    },
+    {
+      "name": "Pedagne",
+      "factions": "Italy.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019565642" }
+      ]
+    },
+    {
+      "name": "Swedish Faction Project",
+      "factions": "Sweden.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019568578" }
+      ]
+    },
+    {
+      "name": "BRAF",
+      "factions": "Brazil, MNGC.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034666054" }
+      ]
+    },
+    {
+      "name": "AMF",
+      "factions": "France.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3055728379" }
+      ]
+    },
+    {
+      "name": "TMT (Turkey/Turkish Land Forces)",
+      "factions": "Turkey.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/workshop/filedetails/?id=3136919159" }
+      ]
+    },
+    {
+      "name": "Finnish Armed Forces",
+      "factions": "Finland.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=917042703", "suffix": "(Requires CUP Weapons, Vehicles and Units)" }
+      ]
+    },
+    {
+      "name": "Hellenic Armed Forces",
+      "factions": "Greece.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/workshop/filedetails/?id=862564410", "suffix": "(Requires CUP Weapons, Vehicles and Units)" }
+      ]
+    },
+    {
+      "name": "(CUP) PLA",
+      "factions": "China.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3453511832", "suffix": "(Requires CUP Weapons, Vehicles and Units)" }
+      ]
+    },
+    {
+      "name": "(CUP) Finnish Defence Forces",
+      "factions": "Finland.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3465921651", "suffix": "(Requires CUP Weapons, Vehicles and Units)" }
+      ]
+    },
+    {
+      "name": "(CUP) Norwegian Armed Forces",
+      "factions": "Norway.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3333292879", "suffix": "(Requires CUP Weapons, Vehicles and Units)" }
+      ]
+    },
+    {
+      "name": "(CUP) Spanish Armed Forces",
+      "factions": "Spain.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3473326177", "suffix": "(Requires CUP Weapons, Vehicles and Units)" }
+      ]
+    },
+    {
+      "name": "(CUP) Polish Armed Forces",
+      "factions": "Poland.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3459905206", "suffix": "(Requires CUP Weapons, Vehicles and Units)" }
+      ]
+    },
+    {
+      "name": "(CUP) The Lombakkan Crisis",
+      "factions": "North Lombakkan Armed Forces + Portuguese UN Peacekeepers, South Lombakkan Defense Forces, Lombakkan Union Front, Bocano Armed Forces",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3442508108", "suffix": "(Requires CUP Weapons, Vehicles and Units)" }
+      ]
+    },
+    {
+      "name": "(CUP) Altian Civil War",
+      "factions": "AAF & TF Aegis, FIA, Raven PMC",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3390585168", "suffix": "(Requires CUP Weapons, Vehicles and Units)" }
+      ]
+    }
+  ],
+  "scifi": [
+    {
+      "name": "Star Wars Clone Wars",
+      "factions": "The Republic, The CIS, Death Watch and The Mandalorians.",
+      "balancing": "Custom",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019570269" }
+      ]
+    },
+    {
+      "name": "Star Wars Imperial",
+      "factions": "Galactic Empire, Rebel Alliance, Rex's Clone Uprising and Saw Gerrera's Partisans.",
+      "balancing": "Custom",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3222259903" }
+      ]
+    },
+    {
+      "name": "OPTRE (Halo)",
+      "factions": "UNSC, Covenant, Insurrectionists, Flood.",
+      "balancing": "Custom",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019563643" },
+        { "downloadLabel": "Precursors", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2796579441", "suffix": "is also supported." }
+      ]
+    },
+    {
+      "name": "Android Ascension",
+      "factions": "Android Army, Vanguard, Replikas, Android civilians.",
+      "balancing": "Custom",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3234836437" }
+      ]
+    }
+  ],
+  "historic": [
+    {
+      "name": "IFA3",
+      "era": "WW2",
+      "factions": "Wehrmacht, Afrika Korps, Red Army, US Army, British Army, Polish Resistance, Allies",
+      "balancing": "Vanilla (ACE Compat Required)",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2648308937" }
+      ]
+    },
+    {
+      "name": "CSA38",
+      "era": "WW2",
+      "factions": "Wehrmacht, British Army, Czech Resistance.",
+      "balancing": "Vanilla (ACE Compat Required)",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034665416" }
+      ]
+    },
+    {
+      "name": "Northern Fronts",
+      "era": "WW2",
+      "factions": "Soviet, Finland, Norway.",
+      "balancing": "Vanilla (ACE Compat Required)",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3082226640" }
+      ]
+    },
+    {
+      "name": "Faces of War",
+      "era": "WW2",
+      "factions": "Wehrmacht and USA.",
+      "balancing": "Vanilla (ACE Compat Required)",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3222258367" }
+      ]
+    },
+    {
+      "name": "East Asia War",
+      "era": "WW2",
+      "factions": "Imperial Japan, China and Chinese Civilians.",
+      "balancing": "Vanilla (ACE Compat Required)",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3222254003" }
+      ]
+    },
+    {
+      "name": "Unsung",
+      "era": "Cold War",
+      "factions": "US Army, PAVN, Viet Cong.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=943001311" }
+      ]
+    },
+    {
+      "name": "Cold War Rearmed III",
+      "era": "Cold War",
+      "factions": "USSR, TDF, US Army, US Marine Corps, BAF, TRF, Miltia, FIA",
+      "balancing": "Vanilla",
+      "preNote": "This collection has 3 extra CWR mods that add BAF, USMC, TDF and TRF. They are not technically required, but they round out the factions.",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3269370567" }
+      ]
+    }
+  ],
+  "unique": [
+    {
+      "name": "STALKER",
+      "era": "Modern, Alternate History",
+      "factions": "Clear Sky, Freedom, Military, Monolith, Ecologists, Loners, Bandits, Duty.",
+      "balancing": "Vanilla or RHS Respectively",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3029710536" },
+        { "downloadLabel": "Expanded", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3033192423" }
+      ]
+    },
+    {
+      "name": "Zombies",
+      "era": "Multi Era",
+      "factions": "Zombies.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034673986" }
+      ]
+    },
+    {
+      "name": "Germany Multi Era",
+      "era": "Multi Era",
+      "factions": "Germany.",
+      "balancing": "Custom",
+      "requires": "Spearhead, BWA3, Global Mobilisation, CUP"
+    },
+    {
+      "name": "USA DLC Multi Era",
+      "era": "Multi Era",
+      "factions": "USA.",
+      "balancing": "Custom",
+      "requires": "Spearhead, SOGPF, CUP"
+    },
+    {
+      "name": "USA Multi Era",
+      "era": "Multi Era",
+      "factions": "USA.",
+      "balancing": "Custom",
+      "requires": "IFA3, Unsung, CUP"
+    },
+    {
+      "name": "Russia Multi Era",
+      "era": "Multi Era",
+      "factions": "Russia.",
+      "balancing": "Custom",
+      "requires": "Northern Fronts, CWRIII, CUP"
+    },
+    {
+      "name": "UK Multi Era",
+      "era": "Multi Era",
+      "factions": "UK.",
+      "balancing": "Custom",
+      "requires": "IFA3, CWRIII, CUP"
+    }
+  ],
+  "trader": {
+    "weapons": [
+      { "name": "NIArms", "balancing": "Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2595680138" },
+      { "name": "Specialist Military Arms", "balancing": "Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=699630614" },
+      { "name": "Tier One Weapons", "balancing": "RHS", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034672470" },
+      { "name": "Free World Armoury", "balancing": "Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2424797017" },
+      { "name": "JCA - Infantry Arsenal", "balancing": "Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3333302397" },
+      { "name": "Project Infinite - All in one", "balancing": "Vanilla", "download": "https://steamcommunity.com/workshop/filedetails/?id=807038742" },
+      { "name": "YLArms", "balancing": "Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3052209341" }
+    ],
+    "vehicles": [
+      { "name": "Flying Legends", "balancing": "Vanilla", "download": "https://steamcommunity.com/workshop/filedetails/?id=2012417505" },
+      { "name": "Secret Weapons Reloaded", "balancing": "Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2710902874" },
+      { "name": "Naval Legends", "balancing": "Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2012371414" }
+    ]
+  },
+  "vehicle": [
+    { "name": "Apex Vehicle Pack", "download": "https://store.steampowered.com/app/395180/Arma_3_Apex/", "downloadLabel": "Purchase | Download" },
+    { "name": "Laws of War Vehicle Pack", "download": "https://store.steampowered.com/app/571710/Arma_3_Laws_of_War/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
+    { "name": "Contact Vehicle Pack", "download": "https://store.steampowered.com/app/1021790/Arma_3_Contact/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
+    { "name": "Karts Vehicle Pack", "download": "https://store.steampowered.com/app/288520/Arma_3_Karts/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
+    { "name": "Western Sahara Vehicle Pack", "download": "https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
+    { "name": "Reaction Forces Vehicle Pack", "download": "https://store.steampowered.com/app/2647760/Arma_3_Creator_DLC_Reaction_Forces/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
+    { "name": "S.O.G. Vehicle pack", "download": "https://store.steampowered.com/app/1227700/Arma_3_Creator_DLC_SOG_Prairie_Fire/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
+    { "name": "Global Mobalization Vehicle Pack", "download": "https://store.steampowered.com/app/1042220/Arma_3_Creator_DLC_Global_Mobilization__Cold_War_Germany/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
+    { "name": "CSLA Iron Curtain Vehicle Pack", "download": "https://store.steampowered.com/app/1294440/Arma_3_Creator_DLC_CSLA_Iron_Curtain/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
+    { "name": "D3S Car Pack", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=1639607571", "downloadLabel": "Workshop" },
+    { "name": "Ivory Car Pack", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=1888644057", "downloadLabel": "Workshop" },
+    { "name": "RDS Car Pack", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=612930542", "downloadLabel": "Workshop" },
+    { "name": "TCGM Backpack Bikes", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2096950604", "downloadLabel": "Workshop" },
+    { "name": "CUP Civilian Vehicle Pack", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=541888371", "downloadLabel": "Workshop" }
+  ],
+  "cdlc": [
+    {
+      "name": "S.O.G. Prairie Fire",
+      "era": "Cold War",
+      "links": [
+        { "downloadLabel": "Purchase | Download", "download": "https://store.steampowered.com/app/1227700/Arma_3_Creator_DLC_SOG_Prairie_Fire/" }
+      ]
+    },
+    {
+      "name": "Spearhead 1944",
+      "era": "WW2",
+      "links": [
+        { "downloadLabel": "Purchase | Download cDLC", "download": "https://store.steampowered.com/app/1175380/Arma_3_Creator_DLC_Spearhead_1944/" },
+        { "downloadLabel": "Download SPEX (Required with SPE1944)", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3117898674" }
+      ]
+    },
+    {
+      "name": "Global Mobilisation",
+      "era": "Cold War",
+      "links": [
+        { "downloadLabel": "Purchase | Download cDLC", "download": "https://store.steampowered.com/app/1042220/Arma_3_Creator_DLC_Global_Mobilization__Cold_War_Germany/" },
+        { "downloadLabel": "Download Required Mods", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034735195" }
+      ]
+    },
+    {
+      "name": "Western Sahara",
+      "era": "Modern",
+      "links": [
+        { "downloadLabel": "Purchase | Download", "download": "https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/" }
+      ]
+    },
+    {
+      "name": "Reaction Forces",
+      "era": "Modern",
+      "links": [
+        { "downloadLabel": "Purchase | Download", "download": "https://store.steampowered.com/app/2647760/Arma_3_Creator_DLC_Reaction_Forces/" }
+      ]
+    },
+    {
+      "name": "Expeditionary Forces",
+      "era": "Modern",
+      "links": [
+        { "downloadLabel": "Purchase | Download", "download": "https://store.steampowered.com/app/2647830/Arma_3_Creator_DLC_Expeditionary_Forces/" }
+      ]
+    }
+  ]
+}
