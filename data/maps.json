@@ -317,14 +317,14 @@
   {
     "name": "Kingdom of Regero",
     "size": "10 x 10",
-    "zones": 41,
+    "zones": 43,
     "satmap": "satmap-regero.webp",
     "scenario": "Antistasi_regero.regero",
     "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2278254320",
     "downloadLabel": "Download",
-    "resources": 7,
+    "resources": 8,
     "factories": 3,
-    "outposts": 17,
+    "outposts": 18,
     "seaports": 7,
     "militaryBases": 1,
     "airports": 6
@@ -962,16 +962,16 @@
   {
     "name": "Yulakia",
     "size": "13 x 13",
-    "zones": 69,
+    "zones": 76,
     "satmap": "satmap-yulakia.webp",
     "scenario": "Antistasi_yulakia.yulakia",
     "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2950257727",
     "downloadLabel": "Download",
-    "resources": 11,
-    "factories": 9,
-    "outposts": 32,
+    "resources": 12,
+    "factories": 11,
+    "outposts": 35,
     "seaports": 7,
-    "militaryBases": 6,
+    "militaryBases": 7,
     "airports": 4
   }
 ]
