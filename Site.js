@@ -35,29 +35,12 @@ function isMobile() {
     return window.innerWidth <= 768; // Adjust breakpoint if needed
 }
 
-if (isMobile()) {
-    document.querySelectorAll('.card-base').forEach(card => {
-        card.addEventListener('click', (e) => {
-            // Prevent flip if a non-flipping element is clicked
-            if (!e.target.closest('.no-flip')) {
-                if (e.target.closest("flipped")) {
-                    card.classList.remove("flipped");
-                } else {
-                    card.classList.toggle('flipped');
-                }
-            }
-        });
-    });
-}
-
-// Dynamically toggle listeners on resize
-let lastState = isMobile();
-window.addEventListener('resize', () => {
-    const currentState = isMobile();
-    if (currentState !== lastState) {
-        setFlipListeners(currentState);
-        lastState = currentState;
-    }
+// Use event delegation so card-flip works for both statically and dynamically added cards.
+// Clicking a .no-flip descendant (e.g. download links, copy button) does not flip the card.
+document.addEventListener('click', (e) => {
+    if (e.target.closest('.no-flip')) return;
+    const card = e.target.closest('.card-base');
+    if (card) card.classList.toggle('flipped');
 });
 
 window.addEventListener('scroll', () => {
