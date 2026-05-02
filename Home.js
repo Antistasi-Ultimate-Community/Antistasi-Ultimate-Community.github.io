@@ -155,7 +155,7 @@
             <h1 class="content-mods-header">${esc(item.name)}</h1>
             <ul class="mods-2">
                 <li>Balancing: ${esc(item.balancing)}</li>
-                <li><a class="mods-link" href="${esc(item.href)}" target="_blank">Workshop Page</a></li>
+                <li><a class="mods-link" href="${esc(item.href)}" target="_blank">Download</a></li>
             </ul>
             <div class="content-mods-divider-full"></div>
         </div>`;
