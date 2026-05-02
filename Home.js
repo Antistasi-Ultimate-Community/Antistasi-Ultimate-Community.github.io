@@ -155,7 +155,7 @@
             <h1 class="content-mods-header">${esc(item.name)}</h1>
             <ul class="mods-2">
                 <li>Balancing: ${esc(item.balancing)}</li>
-                <li><a class="mods-link" href="${escAttr(item.href)}" target="_blank">Download</a></li>
+                <li><a class="mods-link" href="${esc(item.href)}" target="_blank">Workshop Page</a></li>
             </ul>
             <div class="content-mods-divider-full"></div>
         </div>`;
@@ -182,7 +182,7 @@
     function renderVehicleMods(items) {
         return items.map(item => `<div class="mods-content">
             <h2 style="padding-bottom:10px; font-size:1.5rem;" class="content-mods-header">${esc(item.name)}</h2>
-            <a class="content-mods-button" href="${escAttr(item.href)}" target="_blank">${esc(item.label)}</a>
+            <a class="content-mods-button" href="${esc(item.href)}" target="_blank">${esc(item.label)}</a>
             <div class="content-mods-divider-full"></div>
         </div>`).join('');
     }
