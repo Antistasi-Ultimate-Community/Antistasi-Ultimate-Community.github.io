@@ -429,15 +429,15 @@
     ]
   },
   "vehicle": [
-    { "name": "Apex Vehicle Pack", "href": "https://store.steampowered.com/app/395180/Arma_3_Apex/", "label": "Download" },
-    { "name": "Laws of War Vehicle Pack", "href": "https://store.steampowered.com/app/571710/Arma_3_Laws_of_War/?curator_clanid=2799889", "label": "Download" },
-    { "name": "Contact Vehicle Pack", "href": "https://store.steampowered.com/app/1021790/Arma_3_Contact/?curator_clanid=2799889", "label": "Download" },
-    { "name": "Karts Vehicle Pack", "href": "https://store.steampowered.com/app/288520/Arma_3_Karts/?curator_clanid=2799889", "label": "Download" },
-    { "name": "Western Sahara Vehicle Pack", "href": "https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/?curator_clanid=2799889", "label": "Download" },
-    { "name": "Reaction Forces Vehicle Pack", "href": "https://store.steampowered.com/app/2647760/Arma_3_Creator_DLC_Reaction_Forces/?curator_clanid=2799889", "label": "Download" },
-    { "name": "S.O.G. Vehicle pack", "href": "https://store.steampowered.com/app/1227700/Arma_3_Creator_DLC_SOG_Prairie_Fire/?curator_clanid=2799889", "label": "Download" },
-    { "name": "Global Mobalization Vehicle Pack", "href": "https://store.steampowered.com/app/1042220/Arma_3_Creator_DLC_Global_Mobilization__Cold_War_Germany/?curator_clanid=2799889", "label": "Download" },
-    { "name": "CSLA Iron Curtain Vehicle Pack", "href": "https://store.steampowered.com/app/1294440/Arma_3_Creator_DLC_CSLA_Iron_Curtain/?curator_clanid=2799889", "label": "Download" },
+    { "name": "Apex Vehicle Pack", "href": "https://store.steampowered.com/app/395180/Arma_3_Apex/", "label": "Purchase | Download" },
+    { "name": "Laws of War Vehicle Pack", "href": "https://store.steampowered.com/app/571710/Arma_3_Laws_of_War/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "Contact Vehicle Pack", "href": "https://store.steampowered.com/app/1021790/Arma_3_Contact/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "Karts Vehicle Pack", "href": "https://store.steampowered.com/app/288520/Arma_3_Karts/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "Western Sahara Vehicle Pack", "href": "https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "Reaction Forces Vehicle Pack", "href": "https://store.steampowered.com/app/2647760/Arma_3_Creator_DLC_Reaction_Forces/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "S.O.G. Vehicle pack", "href": "https://store.steampowered.com/app/1227700/Arma_3_Creator_DLC_SOG_Prairie_Fire/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "Global Mobalization Vehicle Pack", "href": "https://store.steampowered.com/app/1042220/Arma_3_Creator_DLC_Global_Mobilization__Cold_War_Germany/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "CSLA Iron Curtain Vehicle Pack", "href": "https://store.steampowered.com/app/1294440/Arma_3_Creator_DLC_CSLA_Iron_Curtain/?curator_clanid=2799889", "label": "Purchase | Download" },
     { "name": "D3S Car Pack", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=1639607571", "label": "Download" },
     { "name": "Ivory Car Pack", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=1888644057", "label": "Download" },
     { "name": "RDS Car Pack", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=612930542", "label": "Download" },
@@ -449,14 +449,14 @@
       "name": "S.O.G. Prairie Fire",
       "era": "Cold War",
       "links": [
-        { "downloadLabel": "Download", "download": "https://store.steampowered.com/app/1227700/Arma_3_Creator_DLC_SOG_Prairie_Fire/" }
+        { "downloadLabel": "Purchase | Download", "download": "https://store.steampowered.com/app/1227700/Arma_3_Creator_DLC_SOG_Prairie_Fire/" }
       ]
     },
     {
       "name": "Spearhead 1944",
       "era": "WW2",
       "links": [
-        { "downloadLabel": "Download", "download": "https://store.steampowered.com/app/1175380/Arma_3_Creator_DLC_Spearhead_1944/" },
+        { "downloadLabel": "Purchase | Download cDLC", "download": "https://store.steampowered.com/app/1175380/Arma_3_Creator_DLC_Spearhead_1944/" },
         { "downloadLabel": "Download SPEX (Required with SPE1944)", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3117898674" }
       ]
     },
@@ -464,7 +464,7 @@
       "name": "Global Mobilisation",
       "era": "Cold War",
       "links": [
-        { "downloadLabel": "Download", "download": "https://store.steampowered.com/app/1042220/Arma_3_Creator_DLC_Global_Mobilization__Cold_War_Germany/" },
+        { "downloadLabel": "Purchase | Download cDLC", "download": "https://store.steampowered.com/app/1042220/Arma_3_Creator_DLC_Global_Mobilization__Cold_War_Germany/" },
         { "downloadLabel": "Download Required Mods", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034735195" }
       ]
     },
@@ -472,21 +472,21 @@
       "name": "Western Sahara",
       "era": "Modern",
       "links": [
-        { "downloadLabel": "Download", "download": "https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/" }
+        { "downloadLabel": "Purchase | Download", "download": "https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/" }
       ]
     },
     {
       "name": "Reaction Forces",
       "era": "Modern",
       "links": [
-        { "downloadLabel": "Download", "download": "https://store.steampowered.com/app/2647760/Arma_3_Creator_DLC_Reaction_Forces/" }
+        { "downloadLabel": "Purchase | Download", "download": "https://store.steampowered.com/app/2647760/Arma_3_Creator_DLC_Reaction_Forces/" }
       ]
     },
     {
       "name": "Expeditionary Forces",
       "era": "Modern",
       "links": [
-        { "downloadLabel": "Download", "download": "https://store.steampowered.com/app/2647830/Arma_3_Creator_DLC_Expeditionary_Forces/" }
+        { "downloadLabel": "Purchase | Download", "download": "https://store.steampowered.com/app/2647830/Arma_3_Creator_DLC_Expeditionary_Forces/" }
       ]
     }
   ]
