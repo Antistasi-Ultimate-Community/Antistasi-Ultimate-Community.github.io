@@ -414,35 +414,35 @@
   ],
   "trader": {
     "weapons": [
-      { "name": "NIArms", "balancing": "Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2595680138" },
-      { "name": "Specialist Military Arms", "balancing": "Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=699630614" },
-      { "name": "Tier One Weapons", "balancing": "RHS", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034672470" },
-      { "name": "Free World Armoury", "balancing": "Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2424797017" },
-      { "name": "JCA - Infantry Arsenal", "balancing": "Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3333302397" },
-      { "name": "Project Infinite - All in one", "balancing": "Vanilla", "download": "https://steamcommunity.com/workshop/filedetails/?id=807038742" },
-      { "name": "YLArms", "balancing": "Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3052209341" }
+      { "name": "NIArms", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=2595680138" },
+      { "name": "Specialist Military Arms", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=699630614" },
+      { "name": "Tier One Weapons", "balancing": "RHS", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034672470" },
+      { "name": "Free World Armoury", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=2424797017" },
+      { "name": "JCA - Infantry Arsenal", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=3333302397" },
+      { "name": "Project Infinite - All in one", "balancing": "Vanilla", "href": "https://steamcommunity.com/workshop/filedetails/?id=807038742" },
+      { "name": "YLArms", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=3052209341" }
     ],
     "vehicles": [
-      { "name": "Flying Legends", "balancing": "Vanilla", "download": "https://steamcommunity.com/workshop/filedetails/?id=2012417505" },
-      { "name": "Secret Weapons Reloaded", "balancing": "Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2710902874" },
-      { "name": "Naval Legends", "balancing": "Vanilla", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2012371414" }
+      { "name": "Flying Legends", "balancing": "Vanilla", "href": "https://steamcommunity.com/workshop/filedetails/?id=2012417505" },
+      { "name": "Secret Weapons Reloaded", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=2710902874" },
+      { "name": "Naval Legends", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=2012371414" }
     ]
   },
   "vehicle": [
-    { "name": "Apex Vehicle Pack", "download": "https://store.steampowered.com/app/395180/Arma_3_Apex/", "downloadLabel": "Purchase | Download" },
-    { "name": "Laws of War Vehicle Pack", "download": "https://store.steampowered.com/app/571710/Arma_3_Laws_of_War/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
-    { "name": "Contact Vehicle Pack", "download": "https://store.steampowered.com/app/1021790/Arma_3_Contact/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
-    { "name": "Karts Vehicle Pack", "download": "https://store.steampowered.com/app/288520/Arma_3_Karts/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
-    { "name": "Western Sahara Vehicle Pack", "download": "https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
-    { "name": "Reaction Forces Vehicle Pack", "download": "https://store.steampowered.com/app/2647760/Arma_3_Creator_DLC_Reaction_Forces/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
-    { "name": "S.O.G. Vehicle pack", "download": "https://store.steampowered.com/app/1227700/Arma_3_Creator_DLC_SOG_Prairie_Fire/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
-    { "name": "Global Mobalization Vehicle Pack", "download": "https://store.steampowered.com/app/1042220/Arma_3_Creator_DLC_Global_Mobilization__Cold_War_Germany/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
-    { "name": "CSLA Iron Curtain Vehicle Pack", "download": "https://store.steampowered.com/app/1294440/Arma_3_Creator_DLC_CSLA_Iron_Curtain/?curator_clanid=2799889", "downloadLabel": "Purchase | Download" },
-    { "name": "D3S Car Pack", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=1639607571", "downloadLabel": "Workshop" },
-    { "name": "Ivory Car Pack", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=1888644057", "downloadLabel": "Workshop" },
-    { "name": "RDS Car Pack", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=612930542", "downloadLabel": "Workshop" },
-    { "name": "TCGM Backpack Bikes", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2096950604", "downloadLabel": "Workshop" },
-    { "name": "CUP Civilian Vehicle Pack", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=541888371", "downloadLabel": "Workshop" }
+    { "name": "Apex Vehicle Pack", "href": "https://store.steampowered.com/app/395180/Arma_3_Apex/", "label": "Purchase | Download" },
+    { "name": "Laws of War Vehicle Pack", "href": "https://store.steampowered.com/app/571710/Arma_3_Laws_of_War/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "Contact Vehicle Pack", "href": "https://store.steampowered.com/app/1021790/Arma_3_Contact/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "Karts Vehicle Pack", "href": "https://store.steampowered.com/app/288520/Arma_3_Karts/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "Western Sahara Vehicle Pack", "href": "https://store.steampowered.com/app/1681170/Arma_3_Creator_DLC_Western_Sahara/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "Reaction Forces Vehicle Pack", "href": "https://store.steampowered.com/app/2647760/Arma_3_Creator_DLC_Reaction_Forces/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "S.O.G. Vehicle pack", "href": "https://store.steampowered.com/app/1227700/Arma_3_Creator_DLC_SOG_Prairie_Fire/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "Global Mobalization Vehicle Pack", "href": "https://store.steampowered.com/app/1042220/Arma_3_Creator_DLC_Global_Mobilization__Cold_War_Germany/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "CSLA Iron Curtain Vehicle Pack", "href": "https://store.steampowered.com/app/1294440/Arma_3_Creator_DLC_CSLA_Iron_Curtain/?curator_clanid=2799889", "label": "Purchase | Download" },
+    { "name": "D3S Car Pack", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=1639607571", "label": "Download" },
+    { "name": "Ivory Car Pack", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=1888644057", "label": "Download" },
+    { "name": "RDS Car Pack", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=612930542", "label": "Download" },
+    { "name": "TCGM Backpack Bikes", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=2096950604", "label": "Download" },
+    { "name": "CUP Civilian Vehicle Pack", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=541888371", "label": "Download" }
   ],
   "cdlc": [
     {
@@ -456,7 +456,7 @@
       "name": "Spearhead 1944",
       "era": "WW2",
       "links": [
-        { "downloadLabel": "Purchase | Download cDLC", "download": "https://store.steampowered.com/app/1175380/Arma_3_Creator_DLC_Spearhead_1944/" },
+        { "downloadLabel": "Purchase | Download", "download": "https://store.steampowered.com/app/1175380/Arma_3_Creator_DLC_Spearhead_1944/" },
         { "downloadLabel": "Download SPEX (Required with SPE1944)", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3117898674" }
       ]
     },
@@ -464,7 +464,7 @@
       "name": "Global Mobilisation",
       "era": "Cold War",
       "links": [
-        { "downloadLabel": "Purchase | Download cDLC", "download": "https://store.steampowered.com/app/1042220/Arma_3_Creator_DLC_Global_Mobilization__Cold_War_Germany/" },
+        { "downloadLabel": "Purchase | Download", "download": "https://store.steampowered.com/app/1042220/Arma_3_Creator_DLC_Global_Mobilization__Cold_War_Germany/" },
         { "downloadLabel": "Download Required Mods", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034735195" }
       ]
     },
