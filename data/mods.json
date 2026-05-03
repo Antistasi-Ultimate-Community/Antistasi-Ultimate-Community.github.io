@@ -456,7 +456,7 @@
       "name": "Spearhead 1944",
       "era": "WW2",
       "links": [
-        { "downloadLabel": "Purchase | Download cDLC", "download": "https://store.steampowered.com/app/1175380/Arma_3_Creator_DLC_Spearhead_1944/" },
+        { "downloadLabel": "Purchase | Download", "download": "https://store.steampowered.com/app/1175380/Arma_3_Creator_DLC_Spearhead_1944/" },
         { "downloadLabel": "Download SPEX (Required with SPE1944)", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3117898674" }
       ]
     },
@@ -464,7 +464,7 @@
       "name": "Global Mobilisation",
       "era": "Cold War",
       "links": [
-        { "downloadLabel": "Purchase | Download cDLC", "download": "https://store.steampowered.com/app/1042220/Arma_3_Creator_DLC_Global_Mobilization__Cold_War_Germany/" },
+        { "downloadLabel": "Purchase | Download", "download": "https://store.steampowered.com/app/1042220/Arma_3_Creator_DLC_Global_Mobilization__Cold_War_Germany/" },
         { "downloadLabel": "Download Required Mods", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3034735195" }
       ]
     },
