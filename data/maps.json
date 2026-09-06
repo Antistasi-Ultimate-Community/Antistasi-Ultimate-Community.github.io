@@ -973,5 +973,50 @@
     "seaports": 7,
     "militaryBases": 7,
     "airports": 4
+  },
+  {
+    "name": "Bornholm",
+    "size": "22 x 22km",
+    "zones": -1,
+    "satmap": "satmap-empty.webp",
+    "scenario": "Antistasi_bornholm.bornholm",
+    "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2914536900",
+    "downloadLabel": "Download",
+    "resources": -1,
+    "factories": -1,
+    "outposts": -1,
+    "seaports": -1,
+    "militaryBases": -1,
+    "airports": -1
+  },
+  {
+    "name": "Laghisola",
+    "size": "10 x 10",
+    "zones": -1,
+    "satmap": "satmap-empty.webp",
+    "scenario": "Antistasi_egl_laghisola.egl_laghisola",
+    "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2175069333",
+    "downloadLabel": "Download",
+    "resources": -1,
+    "factories": -1,
+    "outposts": -1,
+    "seaports": -1,
+    "militaryBases": -1,
+    "airports": -1
+  },
+  {
+    "name": "Armavir",
+    "size": "30 x 30",
+    "zones": -1,
+    "satmap": "satmap-empty.webp",
+    "scenario": "Antistasi_UMB_Armavir.UMB_Armavir",
+    "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2636365838",
+    "downloadLabel": "Download",
+    "resources": -1,
+    "factories": -1,
+    "outposts": -1,
+    "seaports": -1,
+    "militaryBases": -1,
+    "airports": -1
   }
 ]
