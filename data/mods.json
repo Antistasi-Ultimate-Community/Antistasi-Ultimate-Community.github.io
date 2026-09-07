@@ -55,10 +55,18 @@
   "modern": [
     {
       "name": "RHS",
-      "factions": "Russian Federation, CDF, US Army, USMC.",
+      "factions": "Russian Federation, VDV, CDF, US Army, USMC.",
       "balancing": "RHS",
       "links": [
         { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3019567905" }
+      ]
+    },
+    {
+      "name": "AFR",
+      "factions": "AAF, HIDF, NTA, LDF, CSAT (Arid), CSAT (Temperate), US Army (Arid), US Army (Temperate), FIA, SDK, ION, CTRGxLocal.",
+      "balancing": "RHS",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3764816437" }
       ]
     },
     {
@@ -106,6 +114,14 @@
       "balancing": "Vanilla",
       "links": [
         { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3029745748" }
+      ]
+    },
+    {
+      "name": "E22",
+      "factions": "Jointcom, RAF.",
+      "balancing": "Vanilla",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3764817584" }
       ]
     },
     {
@@ -420,12 +436,19 @@
       { "name": "Free World Armoury", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=2424797017" },
       { "name": "JCA - Infantry Arsenal", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=3333302397" },
       { "name": "Project Infinite - All in one", "balancing": "Vanilla", "href": "https://steamcommunity.com/workshop/filedetails/?id=807038742" },
-      { "name": "YLArms", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=3052209341" }
+      { "name": "YLArms", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=3052209341" },
+      { "name": "Quiggs's Firearms Pack", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=3557431447" },
+      { "name": "Modern Sniper Systems (All-in-One)", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=3564392635" },
+      { "name": "ReArma Rus Weapons", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=3742163031" },
+      { "name": "ReArma US Weapons", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=3770609240" }
     ],
     "vehicles": [
       { "name": "Flying Legends", "balancing": "Vanilla", "href": "https://steamcommunity.com/workshop/filedetails/?id=2012417505" },
       { "name": "Secret Weapons Reloaded", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=2710902874" },
-      { "name": "Naval Legends", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=2012371414" }
+      { "name": "Naval Legends", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=2012371414" },
+      { "name": "QAV - Vanilla Vehicle Expansion", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=3630109865" },
+      { "name": "JCA - Land Systems", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=3668969444" },
+      { "name": "Sci-Fi Turret Pack", "balancing": "Vanilla", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=3712115907" }
     ]
   },
   "vehicle": [
@@ -442,7 +465,8 @@
     { "name": "Ivory Car Pack", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=1888644057", "label": "Download" },
     { "name": "RDS Car Pack", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=612930542", "label": "Download" },
     { "name": "TCGM Backpack Bikes", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=2096950604", "label": "Download" },
-    { "name": "CUP Civilian Vehicle Pack", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=541888371", "label": "Download" }
+    { "name": "CUP Civilian Vehicle Pack", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=541888371", "label": "Download" },
+    { "name": "Alessio Cars Pack V2", "href": "https://steamcommunity.com/sharedfiles/filedetails/?id=1397041325", "label": "Download" }
   ],
   "cdlc": [
     {
