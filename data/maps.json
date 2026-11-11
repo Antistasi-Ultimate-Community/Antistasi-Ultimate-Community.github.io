@@ -774,9 +774,9 @@
     "downloadLabel": "Download",
     "resources": 8,
     "factories": 3,
-    "outposts": 14,
+    "outposts": 21,
     "seaports": 0,
-    "militaryBases": 1,
+    "militaryBases": 3,
     "airports": 4
   },
   {
@@ -789,9 +789,9 @@
     "downloadLabel": "Download",
     "resources": 8,
     "factories": 3,
-    "outposts": 14,
+    "outposts": 21,
     "seaports": 0,
-    "militaryBases": 1,
+    "militaryBases": 3,
     "airports": 4
   },
   {
@@ -802,11 +802,11 @@
     "scenario": "Antistasi_stubbhult.stubbhult",
     "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3353189981",
     "downloadLabel": "Download",
-    "resources": 7,
+    "resources": 8,
     "factories": 6,
-    "outposts": 13,
-    "seaports": 5,
-    "militaryBases": 3,
+    "outposts": 15,
+    "seaports": 6,
+    "militaryBases": 4,
     "airports": 3
   },
   {
@@ -923,10 +923,10 @@
     "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2266710560",
     "downloadLabel": "Download",
     "resources": 23,
-    "factories": 11,
-    "outposts": 41,
+    "factories": 12,
+    "outposts": 45,
     "seaports": 13,
-    "militaryBases": 3,
+    "militaryBases": 4,
     "airports": 5
   },
   {
