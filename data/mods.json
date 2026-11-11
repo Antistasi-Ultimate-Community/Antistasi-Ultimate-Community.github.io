@@ -304,6 +304,14 @@
       "links": [
         { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3234836437" }
       ]
+    },
+    {
+      "name": "TKE",
+      "factions": "UCN, UCMC, MD, FCF, PMC | KMC, Workers Union | ITA, Mercantile Bastion, Nakamura, Restorationist Front, 9th Echelon, Hyperion Corsairs, MAWS.",
+      "balancing": "Custom",
+      "links": [
+        { "downloadLabel": "Download", "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3809831999" }
+      ]
     }
   ],
   "historic": [
