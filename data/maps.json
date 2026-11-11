@@ -180,6 +180,22 @@
     "airports": 4
   },
   {
+    "name": "Distrikt 41 - Ruegen",
+    "size": "16.4 x 16.4",
+    "zones": 70,
+    "satmap": "satmap-d41-ruegen.webp",
+    "scenario": "Antistasi_d41_ruegen.d41_ruegen",
+    "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=835257174",
+    "downloadLabel": "Download",
+    "resources": 13,
+    "factories": 10,
+    "outposts": 28,
+    "seaports": 12,
+    "militaryBases": 4,
+    "airports": 3
+
+  },
+  {
     "name": "Drakovac",
     "size": "12 x 12",
     "zones": 53,
@@ -298,6 +314,21 @@
     "seaports": 5,
     "militaryBases": 1,
     "airports": 6
+  },
+  {
+    "name": "Isla Pera",
+    "size": "10 x 10",
+    "zones": 47,
+    "satmap": "satmap-isla-pera.webp",
+    "scenario": "Antistasi_IslaPera.IslaPera",
+    "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2917444360",
+    "downloadLabel": "Download",
+    "resources": 8,
+    "factories": 5,
+    "outposts": 27,
+    "seaports": 3,
+    "militaryBases": 1,
+    "airports": 3
   },
   {
     "name": "Island Panthera",
@@ -767,7 +798,7 @@
   {
     "name": "Staszow",
     "size": "20 x 20",
-    "zones": 30,
+    "zones": 39,
     "satmap": "satmap-staszow.webp",
     "scenario": "Antistasi_Staszow.Staszow",
     "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2648308937",
@@ -782,7 +813,7 @@
   {
     "name": "Staszow (Winter)",
     "size": "20 x 20",
-    "zones": 30,
+    "zones": 39,
     "satmap": "satmap-staszow-winter.webp",
     "scenario": "Antistasi_StaszowWinter.StaszowWinter",
     "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2648308937",
@@ -797,7 +828,7 @@
   {
     "name": "Stubbhult",
     "size": "12 x 12",
-    "zones": 37,
+    "zones": 42,
     "satmap": "satmap-stubbhult.webp",
     "scenario": "Antistasi_stubbhult.stubbhult",
     "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3353189981",
@@ -816,6 +847,21 @@
     "satmap": "satmap-sumava.webp",
     "scenario": "Antistasi_brf_sumava.brf_sumava",
     "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2947655994",
+    "downloadLabel": "Download",
+    "resources": 12,
+    "factories": 8,
+    "outposts": 20,
+    "seaports": 0,
+    "militaryBases": 4,
+    "airports": 4
+  },
+  {
+    "name": "Šumava Winter",
+    "size": "12 x 12",
+    "zones": 48,
+    "satmap": "satmap-sumava-winter.webp",
+    "scenario": "Antistasi_brf_sumava_winter.brf_sumava_winter",
+    "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=3834003487",
     "downloadLabel": "Download",
     "resources": 12,
     "factories": 8,
@@ -917,7 +963,7 @@
   {
     "name": "UMB Colombia",
     "size": "20 x 20",
-    "zones": 96,
+    "zones": 102,
     "satmap": "satmap-colombia.webp",
     "scenario": "Antistasi_UMB_Colombia.UMB_Colombia",
     "download": "https://steamcommunity.com/sharedfiles/filedetails/?id=2266710560",
